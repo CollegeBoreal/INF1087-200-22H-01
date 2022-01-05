@@ -43,7 +43,7 @@ Par example:
 - [ ] Modifie ton fichier README.md pour plus de documentation
 
 
-En un mot, récupérer le travail que vous avez fait à travers [Github Leaning Lab](https://lab.github.com/CollegeBoreal) et le mettre dans cette leçon [2.Docker](../2.Docker)
+En un mot, récupérer le travail que vous avez fait à travers [Github Leaning Lab](https://lab.github.com/CollegeBoreal) et le mettre dans cette leçon [1.Docker](../1.Docker)
 
 :three: Amélioration
 
