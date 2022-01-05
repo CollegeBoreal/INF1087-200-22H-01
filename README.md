@@ -1,20 +1,20 @@
-# INF1087-200-21-02
+# INF1087-200-22-01
 Administration d'infrastructure informatique 1
 
 ```
 Brice Robert is inviting you to a scheduled Zoom meeting.
 
-Topic: CBCR  INF1087/200/2/Administration d'infrastructure informatique 1/21H
+Topic: CBCR  INF1087/200/1/Administration d'infrastructure informatique 1/22H
 Time: This is a recurring meeting Meet anytime
 
 Join Zoom Meeting
-https://collegeboreal.zoom.us/j/86989235418?pwd=OHhkLytldUZTNGdhaVoyamNNT1ZGdz09
+https://collegeboreal.zoom.us/j/84617289210?pwd=N2pDdGNOODRmSld1VHdyWmQ0YzU4Zz09
 
-Password: M7@f@1rrgk
+Password: LnKLYQj!_m
 
 One tap mobile
-+12042727920,,86989235418# Canada
-+14388097799,,86989235418# Canada
++12042727920,,84617289210# Canada
++14388097799,,84617289210# Canada
 
 Dial by your location
         +1 204 272 7920 Canada
@@ -24,8 +24,8 @@ Dial by your location
         +1 647 558 0588 Canada
         +1 778 907 2071 Canada
         855 703 8985 Canada Toll-free
-Meeting ID: 869 8923 5418
-Find your local number: https://collegeboreal.zoom.us/u/kcQWtlaysv
+Meeting ID: 846 1728 9210
+Find your local number: https://collegeboreal.zoom.us/u/kdeJlm3e85
 ```
 
 
@@ -60,21 +60,28 @@ en respectant les normes standards de l’industrie.
 
 |# | Semaine|                                          |     Commentaires                                                   |
 |--|:------:|:-----------------------------------------|:-------------------------------------------------------------------|
-|01|11-01-21| [1.Windows](1.Windows)                   | Rentrée des classes                                                |
-|02|18-01-21| Part 1                                   | Process isolation and environment-independant computing            |
-|03|25-01-21|                                          |                                                                    |
-|04|01-02-21|                                          |                                                                    |
-|05|08-02-21|                                          |                                                                    |
-|06|15-02-21| Part 2                                   | Packaging software for distribution                                |
-|07|22-02-21|                                          |                                                                    |
-|08|01-03-21| Semaine d'études                         | Pas de cours                                                       |
-|09|08-03-21|                                          |                                                                    |
-|10|15-03-21|                                          |                                                                    |
-|11|22-03-21| Part 3                                   | Higher-level Abstractions and Orchestration                        |
-|12|29-03-21|                                          |                                                                    |
-|13|05-04-21|                                          |                                                                    |
-|14|12-04-21|                                          |                                                                    |
-|15|19-04-21|                                          |                                                                    |
+|01|03-01-22|                                          | Rentrée des classes                                                |
+|02|10-01-22| Part 1                                   | Process isolation and environment-independant computing            |
+|03|17-01-22|                                          |                                                                    |
+|04|24-01-22|                                          |                                                                    |
+|05|31-01-22| Part 2                                   | Packaging software for distribution                                |
+|06|07-02-22|                                          |                                                                    |
+|07|14-02-22|                                          |                                                                    |
+|08|21-02-22| Semaine d'études                         | Pas de cours                                                       |
+|09|28-02-22|                                          |                                                                    |
+|10|07-03-22|                                          |                                                                    |
+|11|14-03-22|                                          |                                                                    |
+|12|21-03-22| Part 3                                   | Higher-level Abstractions and Orchestration                        |
+|13|28-03-22|                                          |                                                                    |
+|14|04-04-22|                                          |                                                                    |
+|15|11-04-22|                                          |                                                                    |
+
+![image](https://user-images.githubusercontent.com/62551735/148286467-a222f3e9-c670-42cc-a4f0-178307555794.png)
+
+![image](https://user-images.githubusercontent.com/62551735/148286127-4ec796f9-cb94-4e03-a1c8-cce24c054f71.png)
+
+![image](https://user-images.githubusercontent.com/62551735/148285928-a3d60703-7785-4baf-9615-ff7bc3f65e55.png)
+
 
 # Références
 
