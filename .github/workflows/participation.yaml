@@ -12,11 +12,11 @@ jobs:
 
       - shell: bash
         run: |
-          cd 2.Docker
+          cd 1.Docker
           bash .scripts/run.sh
-          cd ../3.Compose
+          cd ../2.Compose
           bash .scripts/run.sh
-          cd ../4.AKS
+          cd ../3.AKS
           bash .scripts/run.sh
       - name: Commit files
         run: |
