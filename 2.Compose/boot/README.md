@@ -34,7 +34,7 @@ Offer                                         Publisher    Sku                  
 
 :one: cloud init not starting
 
-``
+```
 sudo systemctl status cloud-init
 ```
 > 
