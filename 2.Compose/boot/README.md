@@ -4,6 +4,8 @@
 
 https://github.com/hashicorp/terraform-provider-azurerm
 
+https://www.phillipsj.net/posts/cloud-init-with-terraform/
+
 - [ ] Portail Azure
 
 https://portal.azure.com/
@@ -26,3 +28,45 @@ Offer                                         Publisher    Sku                  
 0001-com-ubuntu-confidential-vm-focal         Canonical    20_04-lts-gen2                Canonical:0001-com-ubuntu-confidential-vm-focal:20_04-lts-gen2:20.04.202109080               20.04.202109080
 0001-com-ubuntu-confidential-vm-focal         Canonical    20_04-lts-gen2                Canonical:0001-com-ubuntu-confidential-vm-focal:20_04-lts-gen2:20.04.202110290               20.04.202110290
 ```
+
+
+# :x: Error
+
+:one: cloud init not starting
+
+``
+sudo systemctl status cloud-init
+```
+> 
+```
+Feb 12 20:21:06 machine-CB-AZ-INF1087 systemd[1]: cloud-init.service: Failed with result 'exit-code'.
+Feb 12 20:21:06 machine-CB-AZ-INF1087 systemd[1]: Failed to start Initial cloud-init job (metadata service crawler).
+```
+
+:bulb: Restart cloud init service
+
+```
+sudo systemctl start cloud-init
+```
+
+:two: `netstat -ltn` not showing `2376` port 
+
+```
+docker-machine -D create --driver generic \
+               --generic-ip-address=20.116.114.34 \
+               --generic-ssh-user=terraform \
+               --generic-ssh-key ~/.ssh/b300098957@ramena.pk \
+               machine-CB-AZ-INF1087
+```
+
+
+```
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN
+tcp6       0      0 :::22                   :::*                    LISTEN
+tcp6       0      0 :::2376                 :::*                    LISTEN
+```
+
+
