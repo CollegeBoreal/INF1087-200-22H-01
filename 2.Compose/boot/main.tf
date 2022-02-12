@@ -1,27 +1,27 @@
-resource "azurerm_resource_group" "CB-AZ-INF1087" {
-  name     = "ressources-CB-AZ-INF1087"
+resource "azurerm_resource_group" "CB-AZ-300000000" {
+  name     = "ressources-CB-AZ-300000000"
   location = "Canada Central"
 }
 
-resource "azurerm_virtual_network" "CB-AZ-INF1087" {
-  name                = "reseau-CB-AZ-INF1087"
+resource "azurerm_virtual_network" "CB-AZ-300000000" {
+  name                = "reseau-CB-AZ-300000000"
   address_space       = ["10.0.0.0/16"]
-  location            = azurerm_resource_group.CB-AZ-INF1087.location
-  resource_group_name = azurerm_resource_group.CB-AZ-INF1087.name
+  location            = azurerm_resource_group.CB-AZ-300000000.location
+  resource_group_name = azurerm_resource_group.CB-AZ-300000000.name
 }
 
-resource "azurerm_subnet" "CB-AZ-INF1087" {
+resource "azurerm_subnet" "CB-AZ-300000000" {
   name                 = "internal"
-  resource_group_name  = azurerm_resource_group.CB-AZ-INF1087.name
-  virtual_network_name = azurerm_virtual_network.CB-AZ-INF1087.name
+  resource_group_name  = azurerm_resource_group.CB-AZ-300000000.name
+  virtual_network_name = azurerm_virtual_network.CB-AZ-300000000.name
   address_prefixes     = ["10.0.2.0/24"]
 }
 
 # Adresse publique
-resource "azurerm_public_ip" "CB-AZ-INF1087" {
-  name                = "ip-CB-AZ-INF1087"
-  location            = azurerm_resource_group.CB-AZ-INF1087.location
-  resource_group_name = azurerm_resource_group.CB-AZ-INF1087.name
+resource "azurerm_public_ip" "CB-AZ-300000000" {
+  name                = "ip-CB-AZ-300000000"
+  location            = azurerm_resource_group.CB-AZ-300000000.location
+  resource_group_name = azurerm_resource_group.CB-AZ-300000000.name
   allocation_method   = "Static"
 
   tags = {
@@ -30,24 +30,24 @@ resource "azurerm_public_ip" "CB-AZ-INF1087" {
 }
 
 # CIR (NIC en Anglais) Carte d'Interface Reseau
-resource "azurerm_network_interface" "CB-AZ-INF1087" {
-  name                = "cir-CB-AZ-INF1087"
-  location            = azurerm_resource_group.CB-AZ-INF1087.location
-  resource_group_name = azurerm_resource_group.CB-AZ-INF1087.name
+resource "azurerm_network_interface" "CB-AZ-300000000" {
+  name                = "cir-CB-AZ-300000000"
+  location            = azurerm_resource_group.CB-AZ-300000000.location
+  resource_group_name = azurerm_resource_group.CB-AZ-300000000.name
 
   ip_configuration {
     name                          = "internal"
-    subnet_id                     = azurerm_subnet.CB-AZ-INF1087.id
+    subnet_id                     = azurerm_subnet.CB-AZ-300000000.id
     private_ip_address_allocation = "Dynamic"
-    public_ip_address_id          = "${azurerm_public_ip.CB-AZ-INF1087.id}"
+    public_ip_address_id          = "${azurerm_public_ip.CB-AZ-300000000.id}"
   }
 }
 
 # Groupe Securite (SG en Anglais)
-resource "azurerm_network_security_group" "CB-AZ-INF1087" {
-  name                = "gs-CB-AZ-INF1087"
-  location            = azurerm_resource_group.CB-AZ-INF1087.location
-  resource_group_name = azurerm_resource_group.CB-AZ-INF1087.name
+resource "azurerm_network_security_group" "CB-AZ-300000000" {
+  name                = "gs-CB-AZ-300000000"
+  location            = azurerm_resource_group.CB-AZ-300000000.location
+  resource_group_name = azurerm_resource_group.CB-AZ-300000000.name
 
   security_rule {
     name                       = "SSH"
@@ -80,19 +80,19 @@ data "template_cloudinit_config" "config" {
   part {
     content_type = "text/cloud-config"
     content = templatefile("${path.module}/config/cloud-config.yml", {
-      header: azurerm_network_security_group.CB-AZ-INF1087.id
+      header: azurerm_network_security_group.CB-AZ-300000000.id
     })
   }
 }
 
-resource "azurerm_linux_virtual_machine" "CB-AZ-INF1087" {
-  name                = "machine-CB-AZ-INF1087"
-  resource_group_name = azurerm_resource_group.CB-AZ-INF1087.name
-  location            = azurerm_resource_group.CB-AZ-INF1087.location
+resource "azurerm_linux_virtual_machine" "CB-AZ-300000000" {
+  name                = "machine-CB-AZ-300000000"
+  resource_group_name = azurerm_resource_group.CB-AZ-300000000.name
+  location            = azurerm_resource_group.CB-AZ-300000000.location
   size                = "Standard_B1s"
   admin_username      = "ubuntu"
   network_interface_ids = [
-    azurerm_network_interface.CB-AZ-INF1087.id,
+    azurerm_network_interface.CB-AZ-300000000.id,
   ]
 
   # This is where we pass our cloud-init.
@@ -117,11 +117,11 @@ resource "azurerm_linux_virtual_machine" "CB-AZ-INF1087" {
 
 }
 
-data "azurerm_public_ip" "CB-AZ-INF1087" {
-  name                = "${azurerm_public_ip.CB-AZ-INF1087.name}"
-  resource_group_name = "${azurerm_linux_virtual_machine.CB-AZ-INF1087.resource_group_name}"
+data "azurerm_public_ip" "CB-AZ-300000000" {
+  name                = "${azurerm_public_ip.CB-AZ-300000000.name}"
+  resource_group_name = "${azurerm_linux_virtual_machine.CB-AZ-300000000.resource_group_name}"
 }
 
 output "public_ip_address" {
-  value = "${data.azurerm_public_ip.CB-AZ-INF1087.ip_address}"
+  value = "${data.azurerm_public_ip.CB-AZ-300000000.ip_address}"
 }

@@ -53,10 +53,10 @@ sudo systemctl start cloud-init
 
 ```
 docker-machine -D create --driver generic \
-               --generic-ip-address=20.116.114.34 \
+               --generic-ip-address=$(terraform output --json | jq '.public_ip_address.value' --raw-output) \
                --generic-ssh-user=terraform \
                --generic-ssh-key ~/.ssh/b300098957@ramena.pk \
-               machine-CB-AZ-INF1087
+               machine-CB-AZ-300000000
 ```
 
 
@@ -69,4 +69,6 @@ tcp6       0      0 :::22                   :::*                    LISTEN
 tcp6       0      0 :::2376                 :::*                    LISTEN
 ```
 
-
+```
+docker-machine -D regenerate-certs machine-CB-AZ-300000000
+```
