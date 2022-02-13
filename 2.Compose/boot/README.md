@@ -1,5 +1,40 @@
 # Terraform Azure RM
 
+
+## :a: Create the VM
+
+```
+terraform init
+```
+
+```
+terraform plan
+```
+
+```
+terraform apply
+```
+
+
+## :b: Docker Context
+
+https://blog.mikesir87.io/2019/08/using-ssh-connections-in-docker-contexts/
+
+- [ ] Set the `SSH` agent and key 
+
+- [ ] Create the context
+
+```
+docker context create machine-CB-AZ-300000000 --docker "host=ssh://terraform@20.63.68.184"
+```
+
+- [ ] Use the context 
+
+```
+docker context use machine-CB-AZ-300000000
+```
+
+
 # References
 
 https://github.com/hashicorp/terraform-provider-azurerm
