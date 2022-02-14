@@ -19,4 +19,5 @@ SVP Faites un README.md avec de belles images montrant que vous avez éxécuté 
 
 Bonne chance
 
+![image](images/docker-compose.png)
 
