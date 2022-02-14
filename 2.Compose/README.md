@@ -7,7 +7,7 @@
 
 - [ ] Se connecter à Azure
 
-- [ ] Créer les scripts 'terraform'
+- [ ] Créer les scripts 'terraform' en utilisant [boot](boot)
 
 - [ ] Créer sa machine virtuelle
 
