@@ -49,12 +49,23 @@ terraform init
 terraform apply
 ```
 
-## :b: docker-context
+## :a: Docker Context
+
+https://blog.mikesir87.io/2019/08/using-ssh-connections-in-docker-contexts/
+
+- [ ] Set the `SSH` agent and key 
+
+- [ ] Create the context
 
 ```
-docker context 
+docker context create machine-CB-AZ-<ton ID> --docker "host=ssh://terraform@<ton IP>"
 ```
 
+- [ ] Use the context 
+
+```
+docker context use machine-CB-AZ-<ton ID>
+```
 
 ## :b: docker-composer
 
