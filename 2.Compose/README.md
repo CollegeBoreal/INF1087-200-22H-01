@@ -1,6 +1,13 @@
-# :three: Compose
+# :two: Compose
 
 #### [:tada: Participation](.scripts/Participation.md)
+
+
+## :gear: VM
+
+- [ ] Créer sa machine virtuelle
+
+## :a: docker-composer
 
 https://livebook.manning.com/book/docker-in-action-second-edition/chapter-11/81
 
