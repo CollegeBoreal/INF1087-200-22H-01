@@ -9,7 +9,46 @@
 
 - [ ] Créer les scripts 'terraform' en utilisant [boot](boot)
 
+* crée un répertoire avec ton :id:
+
+```
+mkdir <ton ID>
+```
+
+* copie le répertoire `boot` dans ton répertoire :id:
+
+```
+cp -r boot <ton ID>
+```
+
+* aller dans son répertoire
+
+```
+cd <ton ID>
+```
+
+* éditer le code source `terraform` avec Visual Studio Code 
+
+```
+code .
+```
+
+* dans `main.tf` changer tous les noms comportants CB-AZ-300000000 avec CB-AZ-:id: 
+
 - [ ] Créer sa machine virtuelle
+
+* initialiser les modules et fournisseurs
+
+```
+terraform init
+```
+
+* créer la machine virtuelle
+
+```
+terraform apply
+```
+
 
 ## :a: docker-composer
 
