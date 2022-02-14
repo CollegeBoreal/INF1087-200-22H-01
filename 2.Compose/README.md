@@ -49,8 +49,14 @@ terraform init
 terraform apply
 ```
 
+## :b: docker-context
 
-## :a: docker-composer
+```
+docker context 
+```
+
+
+## :b: docker-composer
 
 https://livebook.manning.com/book/docker-in-action-second-edition/chapter-11/81
 
