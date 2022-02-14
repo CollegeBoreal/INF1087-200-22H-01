@@ -5,6 +5,10 @@
 
 ## :gear: VM
 
+- [ ] Se connecter à Azure
+
+- [ ] Créer les scripts 'terraform'
+
 - [ ] Créer sa machine virtuelle
 
 ## :a: docker-composer
