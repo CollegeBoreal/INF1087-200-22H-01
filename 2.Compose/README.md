@@ -67,7 +67,7 @@ docker context create machine-CB-AZ-<ton ID> --docker "host=ssh://terraform@<ton
 docker context use machine-CB-AZ-<ton ID>
 ```
 
-## :b: docker-composer
+## :b: docker-compose
 
 https://livebook.manning.com/book/docker-in-action-second-edition/chapter-11/81
 
@@ -78,7 +78,9 @@ https://livebook.manning.com/book/docker-in-action-second-edition/chapter-11/81
 - [ ] Chercher un fichier `docker-compose.yml` pour illustrer plusieurs containeurs sur un seul `noeud`.
 
 
-Penser à `kafka`, bien sûr ne pas utiliser cet example
+Penser à `wordpress`, bien sûr vous pouvez utiliser cet example
+
+https://docs.docker.com/samples/wordpress/
 
 :bulb: Le faire sur votre machine Linux
 
