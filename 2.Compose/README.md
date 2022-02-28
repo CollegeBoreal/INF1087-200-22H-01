@@ -21,10 +21,10 @@ mkdir <ton ID>
 cp -r boot <ton ID>
 ```
 
-* aller dans son répertoire
+* aller dans le répertoire `boot` de son `:id:`
 
 ```
-cd <ton ID>
+cd <ton ID>/boot
 ```
 
 * éditer le code source `terraform` avec Visual Studio Code 
