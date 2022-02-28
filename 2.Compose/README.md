@@ -82,6 +82,12 @@ Penser à `wordpress`, bien sûr vous pouvez utiliser cet example
 
 https://docs.docker.com/samples/wordpress/
 
+ou chercher avec Google en tapant dans la recherche
+
+```
+docker-compose yml example bitnami
+```
+
 :bulb: Le faire sur votre machine Linux
 
 SVP Faites un README.md avec de belles images montrant que vous avez éxécuté votre devoir
