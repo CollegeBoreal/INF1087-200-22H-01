@@ -88,6 +88,15 @@ ou chercher avec Google en tapant dans la recherche
 docker-compose yml example bitnami
 ```
 
+- [ ] Copier le fichier `yaml` dans votre repertoire  
+
+- [ ] Lancer la commande,
+
+```
+docker-compose up --detach
+```
+
+
 :bulb: Le faire sur votre machine Linux
 
 SVP Faites un README.md avec de belles images montrant que vous avez éxécuté votre devoir
