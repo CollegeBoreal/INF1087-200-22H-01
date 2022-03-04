@@ -21,10 +21,10 @@ mkdir <ton ID>
 cp -r boot <ton ID>
 ```
 
-* aller dans son répertoire
+* aller dans le répertoire `boot` de son `:id:`
 
 ```
-cd <ton ID>
+cd <ton ID>/boot
 ```
 
 * éditer le code source `terraform` avec Visual Studio Code 
@@ -71,9 +71,9 @@ docker context use machine-CB-AZ-<ton ID>
 
 https://livebook.manning.com/book/docker-in-action-second-edition/chapter-11/81
 
-- [ ] Créer votre répertoire avec votre **c**:id:
+- [ ] Dans votre repertoire :id:
 
-    Il faut placer le charactère **c** devant votre :id:
+    Creer un fichier `README.md` ou vous mettrez votre nom de domaine i.e. `wordpress.<nomd de domaine>`
 
 - [ ] Chercher un fichier `docker-compose.yml` pour illustrer plusieurs containeurs sur un seul `noeud`.
 
@@ -81,10 +81,22 @@ https://livebook.manning.com/book/docker-in-action-second-edition/chapter-11/81
 Penser à `wordpress`, bien sûr vous pouvez utiliser cet example
 
 https://docs.docker.com/samples/wordpress/
+``
+ou chercher avec Google en tapant dans la recherche
 
-:bulb: Le faire sur votre machine Linux
+```
+docker-compose yml example bitnami
+```
 
-SVP Faites un README.md avec de belles images montrant que vous avez éxécuté votre devoir
+- [ ] Copier le fichier `yaml` dans votre repertoire  
+
+- [ ] Lancer la commande,
+
+```
+docker-compose up --detach
+```
+
+
 
 Bonne chance
 
