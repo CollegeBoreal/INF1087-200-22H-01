@@ -84,6 +84,11 @@ Merged "AKS-CB-AZ-30000000-aks" as current context in /Users/myuser/.kube/config
 ```
 kubectl config get-contexts
 ```
+> Return
+```
+CURRENT   NAME                      CLUSTER                   AUTHINFO                                                    NAMESPACE
+*         AKS-CB-AZ-300000000-aks   AKS-CB-AZ-300000000-aks   clusterUser_AKS-CB-AZ-300000000-rg_AKS-C-AZ-300000000-aks
+```
 
 ## :anchor: Utiliser la grappe (Cluster) `Kubernetes`
 
