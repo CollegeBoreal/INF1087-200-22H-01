@@ -5,10 +5,12 @@
 
 * Remplacer `300000000` avec son :id:
 
-`AZURE_CLI_SP=azure-cli-300000000`
+```
+AZURE_CLI_SP=azure-cli-300000000
+```
 
 ```
-az ad sp create-for-rbac --name ${AZURE_CLI_SP} > ~/.ssh/terraform.tfvars.json
+az ad sp create-for-rbac --name ${AZURE_CLI_SP} > ${HOME}/.ssh/terraform.tfvars.json
 ```
 > Return
 ```
@@ -16,7 +18,7 @@ WARNING: The output includes credentials that you must protect. Be sure that you
 ```
 
 ```
-cat ~/.ssh/terraform.tfvars.json
+cat ${HOME}/.ssh/terraform.tfvars.json
 ```
 > Return
 ```
@@ -33,7 +35,7 @@ terraform init
 ```
 
 ```
-terraform plan -var-file=~/.ssh/terraform.tfvars.json
+terraform plan -var-file=${HOME}/.ssh/terraform.tfvars.json
 ```
 
 
@@ -60,12 +62,16 @@ helm install my-release azure-marketplace/mediawiki
 
 ## :x: Destroy
 
-```
- terraform destroy -var-file=~/.ssh/terraform.tfvars.json
-```
+- [ ] Détruire la grappe
 
 ```
-for id in $(az ad sp list --display-name ${AZURE_CLI_SP} | jq '.[].appId' --raw-output); do az ad sp delete --id ${id}; done
+ terraform destroy -var-file=${HOME}/.ssh/terraform.tfvars.json
+```
+
+- [ ] Enlever le compte de service 
+
+```
+ad sp delete --id ${AZURE_CLI_SP}
 ```
 
 # References
@@ -76,3 +82,7 @@ for id in $(az ad sp list --display-name ${AZURE_CLI_SP} | jq '.[].appId' --raw-
 ### Learn Terraform - Provision AKS Cluster
 
 This repo is a companion repo to the [Provision an AKS Cluster learn guide](https://learn.hashicorp.com/terraform/kubernetes/provision-aks-cluster), containing Terraform configuration files to provision an AKS cluster on Azure.
+
+```
+for id in $(az ad sp list --display-name ${AZURE_CLI_SP} | jq '.[].appId' --raw-output); do az ad sp delete --id ${id}; done
+```
