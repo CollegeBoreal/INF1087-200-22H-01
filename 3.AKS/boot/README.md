@@ -71,7 +71,8 @@ helm install my-release azure-marketplace/mediawiki
 - [ ] Enlever le compte de service 
 
 ```
-az ad sp delete --id $(az ad sp list --display-name ${AZURE_CLI_SP} | jq '.[].appId' --raw-output)
+az ad sp delete \
+  --id $(az ad sp list --display-name ${AZURE_CLI_SP} | jq '.[].appId' --raw-output)
 ```
 
 # References
