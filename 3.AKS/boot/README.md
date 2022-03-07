@@ -52,6 +52,16 @@ terraform plan -var-file=${HOME}/.ssh/terraform.tfvars.json
 ```
 terraform apply -var-file=${HOME}/.ssh/terraform.tfvars.json
 ```
+> Return
+```
+...
+Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+kubernetes_cluster_name = "AKS-CB-AZ-300000000-aks"
+resource_group_name = "AKS-CB-AZ-300000000-rg"
+```
 
 :bulb: La création de la grappe peux prendre jusqu'à 5 minutes, soit patient.
 
