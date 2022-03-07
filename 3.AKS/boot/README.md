@@ -53,6 +53,8 @@ terraform plan -var-file=${HOME}/.ssh/terraform.tfvars.json
 terraform apply -var-file=${HOME}/.ssh/terraform.tfvars.json
 ```
 
+:bulb: La création de la grappe peux prendre jusqu'à 5 minutes, soit patient.
+
 ## :ab: Utiliser la grappe (Cluster) `Kubernetes`
 
 - [ ] Mettre le contexte de la grappe dans le fichier `~/.kube/config` 
