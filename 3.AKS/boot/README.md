@@ -3,7 +3,9 @@
 
 - [ ] [AKS Service Principal](https://docs.microsoft.com/en-us/azure/aks/kubernetes-service-principal?tabs=azure-cli)
 
-`AZURE_CLI_SP=azure-cli-`:id:` `
+* Remplacer 300000000 avec son :id:
+
+`AZURE_CLI_SP=azure-cli-300000000`
 
 ```
 az ad sp create-for-rbac --name ${AZURE_CLI_SP} > ~/.ssh/terraform.tfvars.json
