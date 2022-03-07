@@ -3,7 +3,7 @@
 
 - [ ] [AKS Service Principal](https://docs.microsoft.com/en-us/azure/aks/kubernetes-service-principal?tabs=azure-cli)
 
-* Remplacer 300000000 avec son :id:
+* Remplacer `300000000` avec son :id:
 
 `AZURE_CLI_SP=azure-cli-300000000`
 
