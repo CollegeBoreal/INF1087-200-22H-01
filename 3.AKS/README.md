@@ -10,7 +10,7 @@ Sur votre PC:
 
 :round_pushpin: Installer [Lens](https://github.com/CollegeBoreal/Tutoriels/blob/main/2.MicroServices/3.Orchestration/1.Kubernetes/README.md#star-ide)
 
-- [ ] Se connecter à [Azure](https://github.com/CollegeBoreal/Tutoriels/tree/main/2.MicroServices/4.Cloud/2.Public/2.Azure)
+- [ ] Se connecter avec [Azure CLI](https://github.com/CollegeBoreal/Tutoriels/tree/main/2.MicroServices/4.Cloud/2.Public/2.Azure/cli)
 
 - [ ] Créer les scripts 'terraform' en utilisant [boot](boot)
 
