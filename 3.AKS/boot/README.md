@@ -92,6 +92,8 @@ CURRENT   NAME                      CLUSTER                   AUTHINFO          
 
 ## :anchor: Utiliser la grappe (Cluster) `Kubernetes`
 
+- [ ] Lister les référentiels présents pour installer les applications
+
 ```
 helm repo list
 ```
@@ -101,7 +103,7 @@ NAME    URL
 bitnami https://charts.bitnami.com/bitnami
 ```
 
-- [ ] Ajouter un autre référentiel `Helm`
+- [ ] Ajouter un autre référentiel `Helm` par exemple `azure-marketplace`
 
 ```
 helm repo add azure-marketplace https://marketplace.azurecr.io/helm/v1/repo
