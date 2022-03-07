@@ -70,7 +70,7 @@ resource_group_name = "AKS-CB-AZ-300000000-rg"
 - [ ] Mettre le contexte de la grappe dans le fichier `~/.kube/config` 
 
 ```
-az aks get-credentials \ 
+az aks get-credentials \
    --resource-group $(terraform output -raw resource_group_name) \
    --name $(terraform output -raw kubernetes_cluster_name)
 ```
