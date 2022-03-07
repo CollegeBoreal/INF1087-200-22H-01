@@ -15,7 +15,6 @@ az ad sp create-for-rbac --name ${AZURE_CLI_SP} > ~/.ssh/terraform.tfvars.json
 {
   "appId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
   "displayName": "azure-cli-300000000",
-  "name": "http://azure-cli-300000000",
   "password": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
   "tenant": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"
 }
