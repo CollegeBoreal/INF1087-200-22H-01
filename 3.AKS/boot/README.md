@@ -1,5 +1,8 @@
-# AKS
+# Terraform avec AKS
 
+## :a: Créer le compte de service `principal`
+
+Le compte de service sera utilisé pour accéder à la grappe, en fournissant l'utilisateur et le mot de passe pour créer la grappe. 
 
 - [ ] [AKS Service Principal](https://docs.microsoft.com/en-us/azure/aks/kubernetes-service-principal?tabs=azure-cli)
 
@@ -30,14 +33,29 @@ cat ${HOME}/.ssh/terraform.tfvars.json
 }
 ```
 
+## :b: Créer la grappe (Cluster) `Kubernetes`
+
+- [ ] Installer les `plugins` Terraform
+
 ```
 terraform init
 ```
+
+- [ ] Tester l'infrastructure Terraform
 
 ```
 terraform plan -var-file=${HOME}/.ssh/terraform.tfvars.json
 ```
 
+- [ ] Créer l'infrastructure Terraform
+
+```
+terraform apply -var-file=${HOME}/.ssh/terraform.tfvars.json
+```
+
+## :ab: Utiliser la grappe (Cluster) `Kubernetes`
+
+- [ ] Mettre le contexte de la grappe dans le fichier `~/.kube/config` 
 
 ```
 az aks get-credentials \ 
@@ -49,6 +67,13 @@ az aks get-credentials \
 Merged "AKS-CB-AZ-30000000-aks" as current context in /Users/myuser/.kube/config
 ```
 
+- [ ] Vérifier le contexte
+
+```
+kubectl config get-contexts
+```
+
+## :anchor: Utiliser la grappe (Cluster) `Kubernetes`
 
 ```
 helm repo add azure-marketplace https://marketplace.azurecr.io/helm/v1/repo
