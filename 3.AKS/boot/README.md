@@ -1,7 +1,7 @@
 # AKS
 
 
-- [ ] [Service Principal]
+- [ ] [AKS Service Principal](https://docs.microsoft.com/en-us/azure/aks/kubernetes-service-principal?tabs=azure-cli)
 
 ```
 AZURE_CLI_SP=azure-cli-300000000
