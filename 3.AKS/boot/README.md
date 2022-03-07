@@ -1,15 +1,21 @@
 # AKS
 
 
+- [ ] [Service Principal]
+
 ```
-az ad sp create-for-rbac > ~/.ssh/terraform.tfvars.json
+AZURE_CLI_SP=azure-cli-300000000
+```
+
+```
+az ad sp create-for-rbac --name ${AZURE_CLI_SP} > ~/.ssh/terraform.tfvars.json
 ```
 > Return
 ```
 {
   "appId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
-  "displayName": "azure-cli-2019-04-11-00-46-05",
-  "name": "http://azure-cli-2019-04-11-00-46-05",
+  "displayName": "azure-cli-300000000",
+  "name": "http://azure-cli-300000000",
   "password": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
   "tenant": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"
 }
@@ -51,6 +57,9 @@ helm install my-release azure-marketplace/mediawiki
  terraform destroy -var-file=~/.ssh/terraform.tfvars.json
 ```
 
+```
+for id in $(az ad sp list --display-name ${AZURE_CLI_SP} | jq '.[].appId' --raw-output); do az ad sp delete --id ${id}; done
+```
 
 # References
 
