@@ -10,6 +10,37 @@ Sur votre PC:
 
 :round_pushpin: Installer [Lens](https://github.com/CollegeBoreal/Tutoriels/blob/main/2.MicroServices/3.Orchestration/1.Kubernetes/README.md#star-ide)
 
+- [ ] Se connecter à [Azure](https://github.com/CollegeBoreal/Tutoriels/tree/main/2.MicroServices/4.Cloud/2.Public/2.Azure)
+
+- [ ] Créer les scripts 'terraform' en utilisant [boot](boot)
+
+* crée un répertoire avec ton :id:
+
+```
+mkdir <ton ID>
+```
+
+* copie le répertoire `boot` dans ton répertoire :id:
+
+```
+cp -r boot <ton ID>
+```
+
+* aller dans le répertoire `boot` de son `:id:`
+
+```
+cd <ton ID>/boot
+```
+
+* éditer le code source `terraform` avec Visual Studio Code 
+
+```
+code .
+```
+
+* dans `main.tf` changer tous les noms comportants AKS-CB-AZ-300000000 avec CB-AZ-:id: 
+* dans `output.tf` changer tous les noms comportants AKS-CB-AZ-300000000 avec CB-AZ-:id: 
+
 ## :a: Création de la grappe :wheel_of_dharma: sur Azure
 
 À partir de votre PC, créer une grappe sur:
