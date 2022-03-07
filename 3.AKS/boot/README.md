@@ -93,6 +93,17 @@ CURRENT   NAME                      CLUSTER                   AUTHINFO          
 ## :anchor: Utiliser la grappe (Cluster) `Kubernetes`
 
 ```
+helm repo list
+```
+> Return
+```
+NAME    URL
+bitnami https://charts.bitnami.com/bitnami
+```
+
+- [ ] Ajouter un autre référentiel `Helm`
+
+```
 helm repo add azure-marketplace https://marketplace.azurecr.io/helm/v1/repo
 ```
 
