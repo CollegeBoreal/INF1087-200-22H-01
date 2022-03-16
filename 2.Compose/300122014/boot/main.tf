@@ -89,7 +89,7 @@ resource "azurerm_linux_virtual_machine" "CB-AZ-300122014" {
   name                = "machine-CB-AZ-300122014"
   resource_group_name = azurerm_resource_group.CB-AZ-300122014.name
   location            = azurerm_resource_group.CB-AZ-300122014.location
-  size                = "Standard_B1ls"
+  size                = "Standard_B2s"
   admin_username      = "ubuntu"
   network_interface_ids = [
     azurerm_network_interface.CB-AZ-300122014.id,
