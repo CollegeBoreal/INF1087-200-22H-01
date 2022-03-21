@@ -1,1 +1,1 @@
-http://20.104.78.111:8000
+http://wordpress.sylvainbitja.software:8000
