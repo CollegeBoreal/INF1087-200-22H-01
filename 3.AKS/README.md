@@ -26,7 +26,7 @@ mkdir <ton ID>
 cp -r boot <ton ID>
 ```
 
-* aller dans le répertoire `boot` de son `:id:`
+* aller dans le répertoire `boot` de son :id:
 
 ```
 cd <ton ID>/boot
