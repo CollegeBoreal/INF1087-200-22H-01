@@ -66,3 +66,8 @@ code .
 
 - [ ] Démontrer l'adresse IP de votre `service` Kubernetes (si disponible)
 - [ ] Ajouter la grappe AKS à votre nom de domaine et démontrer que votre grappe tourne sous le nom de domaine
+
+
+![images](images/Whiteboard[1]-01.png)
+![images](images/Whiteboard[2]-01.png)
+![images](images/Whiteboard[3]-01.png)
