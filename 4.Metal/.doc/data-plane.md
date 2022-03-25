@@ -7,10 +7,11 @@
 Elle devrait ressembler à la suivante:
 
 ```
-$ sudo kubeadm join betelgeuse.orion.gasy.africa:6443 \
-                      --token 4gp39y.898okq2rcj3j8wgl \
-                      --discovery-token-ca-cert-hash sha256:348cf90011e40088944a5f5cfe3279c04a0dfb24f56ba21209e61fdc15af3645
+$ kubeadm join betelgeuse.orion.gasy.africa:6443 --token 4gp39y.898okq2rcj3j8wgl \
+    --discovery-token-ca-cert-hash sha256:348cf90011e40088944a5f5cfe3279c04a0dfb24f56ba21209e61fdc15af3645
 ```
+
+:bulb: N'oubliez de rajouter `sudo` 
 
 [:back:](../#abacus-les-plan-de-données-data-plane)
 
