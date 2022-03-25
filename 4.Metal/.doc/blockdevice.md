@@ -38,7 +38,10 @@ TAGS=:systemd:
 - [ ] pour avoir la taille d'un périphérique
 
 ```
-$ sudo fdisk --list /dev/mapper/ubuntu--vg-iscsi--lv
+sudo fdisk --list /dev/mapper/ubuntu--vg-iscsi--lv
+```
+> Retourne
+```
 Disk /dev/mapper/ubuntu--vg-iscsi--lv: 100 GiB, 107374182400 bytes, 209715200 sectors
 Units: sectors of 1 * 512 = 512 bytes
 Sector size (logical/physical): 512 bytes / 512 bytes
@@ -48,7 +51,10 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 - [ ] pour avoir son :id: ou encore son **PARTUUID**
 
 ```
-$ echo "blockdevice-"`sudo blkid --match-tag PARTUUID --output value /dev/sda3`
+echo "blockdevice-"`sudo blkid --match-tag PARTUUID --output value /dev/sda3`
+```
+> Retourne
+```
 blockdevice-943643da-1a54-4b2f-b1fa-e1c27ba61b96
 ```
 
@@ -56,6 +62,9 @@ blockdevice-943643da-1a54-4b2f-b1fa-e1c27ba61b96
 
 ```
 $ uname --nodename
+```
+> Retourne
+```
 brooks
 ```
 
