@@ -83,7 +83,15 @@ Desired=Unknown/Install/Remove/Purge/Hold
 hi  kubelet        1.23.5-00    amd64        Kubernetes Node Agent
 ```
 
-- [ ] Si elle n'est pas bonne, enlever la librairie
+- [ ] Si ce n'est pas la bonne version, 
+
+     - [ ] enlever le marquage
+
+```
+sudo apt-mark unhold kubelet kubeadm
+```
+
+     - [ ] enlever la librairie
 
 ```
 sudo apt purge kubelet
