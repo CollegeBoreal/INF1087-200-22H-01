@@ -86,5 +86,34 @@ sudo apt-mark hold kubeadm kubectl
 ```
 OUT="--output=json"; kubeadm version ${OUT} && kubectl version --client ${OUT}
 ```
+> Retourne
+```json
+{
+  "clientVersion": {
+    "major": "1",
+    "minor": "18",
+    "gitVersion": "v1.18.6",
+    "gitCommit": "dff82dc0de47299ab66c83c626e08b245ab19037",
+    "gitTreeState": "clean",
+    "buildDate": "2020-07-15T16:56:34Z",
+    "goVersion": "go1.13.9",
+    "compiler": "gc",
+    "platform": "linux/amd64"
+  }
+}
+{
+  "clientVersion": {
+    "major": "1",
+    "minor": "18",
+    "gitVersion": "v1.18.6",
+    "gitCommit": "dff82dc0de47299ab66c83c626e08b245ab19037",
+    "gitTreeState": "clean",
+    "buildDate": "2020-07-15T16:58:53Z",
+    "goVersion": "go1.13.9",
+    "compiler": "gc",
+    "platform": "linux/amd64"
+  }
+}
+```
 
 [:back:](../#round_pushpin-installation-des-outils)
