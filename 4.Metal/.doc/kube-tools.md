@@ -9,7 +9,7 @@ Mettre le serveur à jour et le redémarrer.
 :warning: Attention, le serveur va `reboot`er
 
 ```
-$ sudo apt update && sudo apt -y upgrade && sudo systemctl reboot
+sudo apt update && sudo apt -y upgrade && sudo systemctl reboot
 ```
 
 ## :one: Installer le [référentiel](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository) `google cloud`
@@ -19,7 +19,7 @@ $ sudo apt update && sudo apt -y upgrade && sudo systemctl reboot
 :bulb: Certains référentiels ont des `URL` utilisant `HTTPS`. La librairie `apt-transport-https` doit être installée pour acceder le lien `HTTPS`:
 
 ```
-$ sudo apt update && sudo apt -y install curl apt-transport-https ca-certificates gnupg-agent software-properties-common
+sudo apt update && sudo apt -y install curl apt-transport-https ca-certificates gnupg-agent software-properties-common
 ```
 
 :round_pushpin: Ajout du référentiel de librairies `kubernetes` au référentiel de gestionnaire de libraries  
@@ -29,7 +29,7 @@ $ sudo apt update && sudo apt -y install curl apt-transport-https ca-certificate
 * Ajouter la clé `PGP`
 
 ```
-$ curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
 ```
 
 * Vérifier que l'empreinte de la clé `54A6 47F9 048D 5688 D7DA  2ABE 6A03 0B21 BA07 F4FB` est bien capturée en la cherchant avec les 8 derniers caractères de l'empreinte.
@@ -54,7 +54,7 @@ sub   rsa2048 2020-12-04 [E]
 - [ ] Ajouter le fichier `kubernetes debian` au référentiel
 
 ```
-$ echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
+echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
 ```
 
 ## :two: Installer **kubeadm** and **kubectl**
