@@ -34,10 +34,10 @@ k8s.gcr.io/coredns:1.6.7
 
 :round_pushpin: Initialiser la grappe
 
-`<LE PLAN DE CONTROLE DE VOTRE GRAPPE>` doit être un nom de serveur avec son domaine par exemple `betelgeuse.gasy.africa`
+`<LE PLAN DE CONTROLE DE VOTRE GRAPPE>` doit être un nom de serveur avec son domaine par example `betelgeuse.gasy.africa`
 
 ```
-$ sudo kubeadm init \
+sudo kubeadm init \
   --pod-network-cidr=172.16.0.0/16 \
   --control-plane-endpoint=<LE PLAN DE CONTROLE DE VOTRE GRAPPE>
 ```
