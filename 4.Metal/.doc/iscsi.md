@@ -5,13 +5,13 @@
 ## :a: Vérifier la présence du fichier de configuration `iscsi` 
 
 ```
-$ sudo cat /etc/iscsi/initiatorname.iscsi
+sudo cat /etc/iscsi/initiatorname.iscsi
 ```
 
 :bulb: si le fichier `ìnitiator` n'est pas présent, installer `open-iscsi`:
 
 ```
-$ sudo apt-get update && sudo apt-get install open-iscsi
+sudo apt-get update && sudo apt-get install open-iscsi
 ```
 
 ## :b: Vérifier que le service `iscsid` est disponible
@@ -19,7 +19,10 @@ $ sudo apt-get update && sudo apt-get install open-iscsi
 :warning: Printout below shows `disabled` 
 
 ```
-$ systemctl status iscsid 
+systemctl status iscsid 
+```
+> Retourne
+```
 ● iscsid.service - iSCSI initiator daemon (iscsid)
      Loaded: loaded (/lib/systemd/system/iscsid.service; disabled; vendor preset: enabled)
      Active: inactive (dead)
@@ -30,7 +33,10 @@ TriggeredBy: ● iscsid.socket
 - [ ] Démarrer le service `iscsid`
 
 ```
-$ sudo systemctl enable --now iscsid
+sudo systemctl enable --now iscsid
+```
+> Retourne
+```
 Synchronizing state of iscsid.service with SysV service script with /lib/systemd/systemd-sysv-install.
 Executing: /lib/systemd/systemd-sysv-install enable iscsid
 Created symlink /etc/systemd/system/sysinit.target.wants/iscsid.service → /lib/systemd/system/iscsid.service.
@@ -39,7 +45,10 @@ Created symlink /etc/systemd/system/sysinit.target.wants/iscsid.service → /lib
 - [ ] Vérifier qu'il est démarré et en marche `active (running)`
 
 ```
-$ systemctl status iscsid 
+systemctl status iscsid 
+```
+> Retourne
+```
 ● iscsid.service - iSCSI initiator daemon (iscsid)
      Loaded: loaded (/lib/systemd/system/iscsid.service; enabled; vendor preset: enabled)
      Active: active (running) since Sun 2021-02-28 18:13:56 UTC; 8s ago
