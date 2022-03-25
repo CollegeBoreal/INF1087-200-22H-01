@@ -87,15 +87,15 @@ hi  kubelet        1.23.5-00    amd64        Kubernetes Node Agent
 
   - [ ] enlever le marquage
 
-```
-sudo apt-mark unhold kubelet kubeadm
-```
+     ```
+     sudo apt-mark unhold kubelet kubeadm
+     ```
 
    - [ ] enlever la librairie
 
-```
-sudo apt purge kubelet
-```
+     ```
+     sudo apt purge kubelet
+     ```
 
 :bulb: Si une librarie en dépend, désinstaller la (i.e. `kubeadm`)
 
