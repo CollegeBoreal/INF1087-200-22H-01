@@ -72,7 +72,7 @@ Chain DOCKER-USER (1 references)
 - [ ] Check that the service is enabled
 
 ```
-$ systemctl list-unit-files | grep docker
+systemctl list-unit-files | grep docker
 ```
 > Return
 ```
