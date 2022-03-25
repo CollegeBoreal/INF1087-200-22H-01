@@ -71,13 +71,13 @@ https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/kubelet-in
 - [ ] vérifier la version installée
 
 ```
-$ sudo dpkg --list kubelet
+sudo dpkg --list kubelet
 ```
 
 - [ ] Si elle n'est pas bonne, enlever la librairie
 
 ```
-$ sudo apt purge kubelet
+sudo apt purge kubelet
 ```
 
 :bulb: Si une librarie en dépend, désinstaller la (i.e. `kubeadm`)
