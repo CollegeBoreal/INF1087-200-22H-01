@@ -134,6 +134,7 @@ $ kubectl patch storageclass standard -p '{"metadata": {"annotations":{"storagec
 
 # References
 
-https://technology.amis.nl/platform/openebs-cstor-storage-engine-on-kvm/
+- [ ] [OpenEBS: cStor storage engine on KVM](https://technology.amis.nl/platform/openebs-cstor-storage-engine-on-kvm)
+- [ ] [Mayastor is fastest open source storage, Intel says. So where are the numbers?](https://blocksandfiles.com/2021/03/08/intel-says-mayastor-is-fastest-open-source-storage)
 
 
