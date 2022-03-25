@@ -54,7 +54,7 @@ $ systemctl status kubelet
 ## :two: Démarrer le :droplet: service `kubelet`
 
 ``` 
-$ sudo systemctl enable kubelet && sudo systemctl start kubelet
+sudo systemctl enable kubelet && sudo systemctl start kubelet
 ```
 
 [:back:](../#round_pushpin-installation-des-services)
