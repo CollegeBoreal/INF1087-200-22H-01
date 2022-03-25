@@ -26,9 +26,9 @@ sub   rsa4096 2017-02-22 [S]
 - [ ] Create the docker debian repository file
 
 ```
-$ sudo add-apt-repository \
-  "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-  $(lsb_release --codename --short) stable"
+sudo add-apt-repository \
+ "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+ $(lsb_release --codename --short) stable"
 ```
 
 :round_pushpin: Install the :whale: `Docker` engine
