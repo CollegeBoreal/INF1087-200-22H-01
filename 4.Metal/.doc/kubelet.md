@@ -102,3 +102,15 @@ hi  kubelet        1.23.5-00    amd64        Kubernetes Node Agent
 :bulb: Si une librarie en dépend, désinstaller la (i.e. `kubeadm`)
 
 - [ ] Réinstaller la librairie avec la bonne version
+
+     - [ ] Choisir une version spécifique de Kubernetes
+
+     ```
+     export KUBEVERSION=1.18.6
+     ``` 
+
+     - [ ] reCommencer l'installation
+
+     ```
+     sudo apt -y install kubelet=${KUBEVERSION}-00 && sudo apt -y install kubeadm=${KUBEVERSION}-00
+     ```
