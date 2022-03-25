@@ -9,7 +9,10 @@ Les périphériques en mode bloc réferent souvant aux disques durs dont la lect
 - [ ] Pour avoir des informations sur un périphérique: (i.e `/dev/ubuntu-vg/iscsi-lv`)
 
 ```
-$ udevadm info --query property --name /dev/ubuntu-vg/iscsi-lv
+udevadm info --query property --name /dev/ubuntu-vg/iscsi-lv
+```
+> Retourne
+```
 DEVPATH=/devices/virtual/block/dm-1
 DEVNAME=/dev/dm-1
 DEVTYPE=disk
