@@ -56,7 +56,7 @@ $ kubeadm token list
 - [ ] Donner les valeurs récupérées aux variables d'environnements suivantes: (par example)
 
 ```
-$ CTL_PLANE="betelgeuse.boreal.codes"
+$ CTL_PLANE="betelgeuse.orion.gasy.africa"
 $ TOKEN="tod4ok.xbzkz5h9zg2q7c1j"
 $ CA_CERT_HASH="c41ff0c3608120eaf7599bc77f6bc72b1e75c46caa073bb28cba21ea1f86f5ef"
 ```
@@ -73,15 +73,18 @@ $ sudo kubeadm join ${CTL_PLANE}:6443 --token ${TOKEN} --discovery-token-ca-cert
 
 ```
 $ kubeadm token create --print-join-command
-W0304 19:51:22.390054 2541130 configset.go:202] WARNING: kubeadm cannot validate component configs for API groups [kubelet.config.k8s.io kubeproxy.config.k8s.io]
 
-kubeadm join betelgeuse.boreal.codes:6443 --token zlt7nb.lpd06ao1kxf4uwgm     --discovery-token-ca-cert-hash sha256:3aa3fe1dd88a80e7ea9e76408dd166947a606b7bd0f1ad089454ccf9a80c2365 
+```
+> Retourne
+```
+W0325 19:10:34.388061   53964 configset.go:202] WARNING: kubeadm cannot validate component configs for API groups [kubelet.config.k8s.io kubeproxy.config.k8s.io]
+kubeadm join betelgeuse.orion.gasy.africa:6443 --token fu6544.o36km11eg95slej1     --discovery-token-ca-cert-hash sha256:348cf90011e40088944a5f5cfe3279c04a0dfb24f56ba21209e61fdc15af3645
 ```
 
 :abacus: sur le plan de données
 
 ```
-$ sudo kubeadm join betelgeuse.boreal.codes:6443 --token zlt7nb.lpd06ao1kxf4uwgm     --discovery-token-ca-cert-hash sha256:3aa3fe1dd88a80e7ea9e76408dd166947a606b7bd0f1ad089454ccf9a80c2365 
+$ sudo kubeadm join betelgeuse.orion.gasy.africa:6443 --token fu6544.o36km11eg95slej1     --discovery-token-ca-cert-hash sha256:348cf90011e40088944a5f5cfe3279c04a0dfb24f56ba21209e61fdc15af3645 
 ```
 
 ## :x: Troubleshooting
