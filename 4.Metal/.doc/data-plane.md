@@ -7,9 +7,9 @@
 Elle devrait ressembler à la suivante:
 
 ```
-$ sudo kubeadm join betelgeuse.boreal.codes:6443 \
-               --token 2pje0m.xl8voke0wisjymvp   \
-               --discovery-token-ca-cert-hash sha256:27c4b80df3d468bfe13517750a265bb3a3c560871e1bf177cafb323070b7b4a6
+$ sudo kubeadm join betelgeuse.orion.gasy.africa:6443 \
+                      --token 4gp39y.898okq2rcj3j8wgl \
+                      --discovery-token-ca-cert-hash sha256:348cf90011e40088944a5f5cfe3279c04a0dfb24f56ba21209e61fdc15af3645
 ```
 
 [:back:](../#abacus-les-plan-de-données-data-plane)
