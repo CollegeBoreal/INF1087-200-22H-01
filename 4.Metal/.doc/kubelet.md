@@ -57,7 +57,7 @@ $ systemctl status kubelet
 sudo systemctl enable kubelet && sudo systemctl start kubelet
 ```
 
-:warning: Le service `kubelet` ne sera dispoinible qu'apres l'initialisation de la grappe `kubeadm init`
+:warning: Le service `kubelet` ne sera disponible qu'après l'initialisation de la grappe `kubeadm init`
 
 [:back:](../#round_pushpin-installation-des-services)
 
