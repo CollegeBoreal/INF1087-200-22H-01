@@ -91,7 +91,7 @@ hi  kubelet        1.23.5-00    amd64        Kubernetes Node Agent
 sudo apt-mark unhold kubelet kubeadm
 ```
 
-  - [ ] enlever la librairie
+   - [ ] enlever la librairie
 
 ```
 sudo apt purge kubelet
