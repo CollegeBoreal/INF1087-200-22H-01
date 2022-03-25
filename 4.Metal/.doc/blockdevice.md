@@ -61,11 +61,11 @@ blockdevice-943643da-1a54-4b2f-b1fa-e1c27ba61b96
 - [ ] pour enfin avoir le nom du noeud
 
 ```
-$ uname --nodename
+uname --nodename
 ```
 > Retourne
 ```
-brooks
+saiph
 ```
 
 :building_construction: Ces informations sont requises pour créer le fichier de configuration `yaml` utilisé pour créer le périphérique en mode bloc `block device`. 3 périphériques `(block devices)` sont requis pour former un réservoir `(pool)` de stockage géré par un réseau `iSCSI`
