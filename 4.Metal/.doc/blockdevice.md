@@ -13,25 +13,35 @@ udevadm info --query property --name /dev/ubuntu-vg/iscsi-lv
 ```
 > Retourne
 ```
+ udevadm info --query property --name /dev/ubuntu-vg/iscsi-lv
 DEVPATH=/devices/virtual/block/dm-1
 DEVNAME=/dev/dm-1
 DEVTYPE=disk
 MAJOR=253
 MINOR=1
 SUBSYSTEM=block
-USEC_INITIALIZED=8756642703164
+USEC_INITIALIZED=18955999
 DM_UDEV_DISABLE_LIBRARY_FALLBACK_FLAG=1
 DM_UDEV_PRIMARY_SOURCE_FLAG=1
 DM_UDEV_RULES=1
 DM_UDEV_RULES_VSN=2
 DM_NAME=ubuntu--vg-iscsi--lv
-DM_UUID=LVM-HKIv7LZ8lAU2TLmwaLrT0eCuRQwJJ9efoV0aa0SfTVZwDsctMoF6dfv9xlyxv115
+DM_UUID=LVM-rezWQCWaDuFq4QzhcU4F3POBUQUJvJDMCYBBEPap5KcvpALZzh1BF1oXQ1QddcG1
 DM_SUSPENDED=0
 DM_VG_NAME=ubuntu-vg
 DM_LV_NAME=iscsi-lv
+ID_FS_VERSION=5000
+ID_FS_LABEL=cstor-81a8133b-0850-496f-a088-351bc9093fc9
+ID_FS_LABEL_ENC=cstor-81a8133b-0850-496f-a088-351bc9093fc9
+ID_FS_UUID=29004690544607292
+ID_FS_UUID_ENC=29004690544607292
+ID_FS_UUID_SUB=17346365271265347888
+ID_FS_UUID_SUB_ENC=17346365271265347888
+ID_FS_TYPE=zfs_member
+ID_FS_USAGE=filesystem
 DM_TABLE_STATE=LIVE
 DM_STATE=ACTIVE
-DEVLINKS=/dev/disk/by-id/dm-name-ubuntu--vg-iscsi--lv /dev/mapper/ubuntu--vg-iscsi--lv /dev/disk/by-id/dm-uuid-LVM-HKIv7LZ8lAU2TLmwaLrT0eCuRQwJJ9efoV0aa0SfTVZwDsctMoF6dfv9xlyxv115 /dev/ubuntu-vg/iscsi-lv
+DEVLINKS=/dev/disk/by-uuid/29004690544607292 /dev/ubuntu-vg/iscsi-lv /dev/disk/by-label/cstor-81a8133b-0850-496f-a088-351bc9093fc9 /dev/mapper/ubuntu--vg-iscsi--lv /dev/disk/by-id/dm-name-ubuntu--vg-iscsi--lv /dev/disk/by-id/dm-uuid-LVM-rezWQCWaDuFq4QzhcU4F3POBUQUJvJDMCYBBEPap5KcvpALZzh1BF1oXQ1QddcG1
 TAGS=:systemd:
 ```
 
@@ -90,7 +100,7 @@ $ kubectl apply --namespace openebs --filename - <<EOF
  metadata:
    name: blockdevice-18918f5d-e3d0-4e77-9126-febbfbf0366c
    labels:
-     kubernetes.io/hostname: brooks
+     kubernetes.io/hostname: saiph
      ndm.io/managed: "false"
      ndm.io/blockdevice-type: blockdevice
  status:
@@ -105,13 +115,13 @@ $ kubectl apply --namespace openebs --filename - <<EOF
    devlinks:
    - kind: by-id
      links:
-     - /dev/disk/by-id/dm-uuid-LVM-HKIv7LZ8lAU2TLmwaLrT0eCuRQwJJ9efoV0aa0SfTVZwDsctMoF6dfv9xlyxv115
+     - /dev/disk/by-id/dm-uuid-LVM-rezWQCWaDuFq4QzhcU4F3POBUQUJvJDMCYBBEPap5KcvpALZzh1BF1oXQ1QddcG1
      - /dev/disk/by-id/dm-name-ubuntu--vg-iscsi--lv
    - kind: by-path
      links:
      - /dev/mapper/ubuntu--vg-iscsi--lv
    nodeAttributes:
-     nodeName: brooks
+     nodeName: saiph
    path: /dev/dm-1
 ---
 EOF
