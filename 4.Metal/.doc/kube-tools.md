@@ -36,19 +36,13 @@ sudo apt -y install curl \
 curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
 ```
 
-* Vérifier que l'empreinte de la clé `54A6 47F9 048D 5688 D7DA  2ABE 6A03 0B21 BA07 F4FB` est bien capturée en la cherchant avec les 8 derniers caractères de l'empreinte.
+* Vérifier que l'empreinte de la clé `59FE 0256 8272 69DC 8157  8F92 8B57 C5C2 836F 4BEB` est bien capturée en la cherchant avec les 8 derniers caractères de l'empreinte.
 
 ```
-$ sudo apt-key fingerprint BA07F4FB
-pub   rsa2048 2018-04-01 [SCE] [expires: 2021-03-31]
-      54A6 47F9 048D 5688 D7DA  2ABE 6A03 0B21 BA07 F4FB
-uid           [ unknown] Google Cloud Packages Automatic Signing Key <gc-team@google.com>
+sudo apt-key fingerprint 836F4BEB
 ```
-
-ou encore 
-
+> Retourne
 ```
-$ sudo apt-key fingerprint 836F4BEB
 pub   rsa2048 2020-12-04 [SC] [expires: 2022-12-04]
       59FE 0256 8272 69DC 8157  8F92 8B57 C5C2 836F 4BEB
 uid           [ unknown] gLinux Rapture Automatic Signing Key (//depot/google3/production/borg/cloud-rapture/keys/cloud-rapture-pubkeys/cloud-rapture-signing-key-2020-12-03-16_08_05.pub) <glinux-team@google.com>
