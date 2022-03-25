@@ -73,6 +73,9 @@ Chain DOCKER-USER (1 references)
 
 ```
 $ systemctl list-unit-files | grep docker
+```
+> Return
+```
 docker.service                         enabled         enabled      
 docker.socket                          enabled         enabled  
 ```
@@ -80,7 +83,10 @@ docker.socket                          enabled         enabled
 - [ ] Check that the service is active
 
 ```
-$ systemctl status docker
+systemctl status docker
+```
+> Return
+```
 ● docker.service - Docker Application Container Engine
      Loaded: loaded (/lib/systemd/system/docker.service; enabled; vendor preset: enabled)
      Active: active (running) since Thu 2021-03-04 19:35:11 UTC; 40s ago
