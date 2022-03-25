@@ -44,7 +44,10 @@ Docker uses `iptables` and a kernel module called `br_netfilter` to manage inter
 - [ ] br_netfilter
 
 ```
-$ sudo lsmod | grep br_netfilter
+sudo lsmod | grep br_netfilter
+```
+> Return
+```
 br_netfilter           28672  0
 bridge                176128  1 br_netfilter
 ```
@@ -52,7 +55,10 @@ bridge                176128  1 br_netfilter
 - [ ] iptables
 
 ```
-$ sudo iptables --list | grep DOCKER
+sudo iptables --list | grep DOCKER
+```
+> Return
+```
 DOCKER-USER  all  --  anywhere             anywhere            
 DOCKER-ISOLATION-STAGE-1  all  --  anywhere             anywhere            
 DOCKER     all  --  anywhere             anywhere            
