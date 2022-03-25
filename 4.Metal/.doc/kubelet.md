@@ -13,26 +13,26 @@
 - [ ] Choisir une version spécifique de Kubernetes
 
 ```
-$ export KUBEVERSION=1.18.6
+export KUBEVERSION=1.18.6
 ``` 
 
 - [ ] Commencer l'installation
 
 ```
-$ sudo apt update && sudo apt -y install kubelet=${KUBEVERSION}-00
+sudo apt update && sudo apt -y install kubelet=${KUBEVERSION}-00
 ```
 
 :round_pushpin:  Prévenir l'altération (mise à jour) du service :droplet: kubelet
 
 ```
-$ sudo apt-mark hold kubelet
+sudo apt-mark hold kubelet
 ```
 
 
 ## :gear: Où est le fichier de service `kubelet` [drop-in file](https://stackoverflow.com/questions/59842743/what-is-a-drop-in-file-what-is-a-drop-in-directory-how-to-edit-systemd-service) (i.e. fichier systemd .conf)
 
 ```
-$ sudo cat /etc/systemd/system/kubelet.service.d/10-kubeadm.conf
+sudo cat /etc/systemd/system/kubelet.service.d/10-kubeadm.conf
 ```
 
 ## :one: Tout de suite après l'installation du service
