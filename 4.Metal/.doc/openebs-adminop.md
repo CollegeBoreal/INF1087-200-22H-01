@@ -2,7 +2,7 @@
 
 :control_knobs: Sur le plan de contrôle
 
-https://docs.openebs.io/docs/next/ugcstor.html#admin-operations
+https://openebs.io/docs/#admin-operations
 
 ## :a: Les Périphériques en mode bloc - BlockDevice CR (Custom Resource)
 
