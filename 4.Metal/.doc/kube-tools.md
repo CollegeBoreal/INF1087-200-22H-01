@@ -66,25 +66,25 @@ echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt
 - [ ] Choisir une version spécifique de Kubernetes
 
 ```
-$ export KUBEVERSION=1.18.6
+export KUBEVERSION=1.18.6
 ``` 
 
 - [ ] Installer la version spécifique de Kubernetes
 
 ```
-$ sudo apt update && sudo apt install -y kubeadm=${KUBEVERSION}-00 kubectl=${KUBEVERSION}-00
+sudo apt update && sudo apt install -y kubeadm=${KUBEVERSION}-00 kubectl=${KUBEVERSION}-00
 ```
 
 :round_pushpin: Prévenir l'altération (mise à jour) des outils :ice_cube: `kube`
 
 ```
-$ sudo apt-mark hold kubeadm kubectl
+sudo apt-mark hold kubeadm kubectl
 ```
 
 :+1: Tester que les outils :ice_cube: `kube` sont installés
 
 ```
-$ OUT="--output=json"; kubeadm version ${OUT} && kubectl version --client ${OUT}
+OUT="--output=json"; kubeadm version ${OUT} && kubectl version --client ${OUT}
 ```
 
 [:back:](../#round_pushpin-installation-des-outils)
