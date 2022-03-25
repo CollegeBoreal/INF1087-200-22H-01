@@ -74,6 +74,5 @@ Feb 28 18:13:57 brooks iscsid[727345]: iSCSI daemon with pid=727346 started!
 
 # References:
 
-https://docs.openebs.io/docs/next/prerequisites.html#ubuntu
-
-https://techbast.com/2019/06/visio-stencils-operation-diagram-of-iscsi-target-server.html
+- [ ] [OpenEBS Install Prerequisites - Ubuntu](https://openebs.io/docs/user-guides/prerequisites#ubuntu)
+- [ ] [Visio Stencils: Operation diagram of iSCSI Target Server](https://techbast.com/2019/06/visio-stencils-operation-diagram-of-iscsi-target-server.html)
