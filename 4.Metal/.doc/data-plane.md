@@ -154,7 +154,26 @@ Please, check the contents of the $HOME/.kube/config file.
    sudo rm -rf /etc/cni $HOME/.kube/config
 ```
   
+:interrobang: Unhealthy :droplet: Kubelet
+    
+```
+[kubelet-start] Waiting for the kubelet to perform the TLS Bootstrap...
+[kubelet-check] Initial timeout of 40s passed.
 
+Unfortunately, an error has occurred:
+        timed out waiting for the condition
+
+This error is likely caused by:
+        - The kubelet is not running
+        - The kubelet is unhealthy due to a misconfiguration of the node in some way (required cgroups disabled)
+
+If you are on a systemd-powered system, you can try to troubleshoot the error with the following commands:
+        - 'systemctl status kubelet'
+        - 'journalctl -xeu kubelet'
+error execution phase kubelet-start: timed out waiting for the condition
+To see the stack trace of this error execute with --v=5 or higher
+```
+    
 # References
 
 https://stackoverflow.com/questions/51126164/how-do-i-find-the-join-command-for-kubeadm-on-the-master
