@@ -10,13 +10,16 @@
 :round_pushpin: Télécharger les images (pour accélérer le processus)
 
 ```
-$ sudo kubeadm config images pull
+sudo kubeadm config images pull
 ```
 
 * Véfifier l'installation des images
 
 ```
-$ sudo kubeadm config images list
+sudo kubeadm config images list
+```
+> Return
+```
 [sudo] password for ubuntu: 
 I0314 03:49:12.111805   33645 version.go:252] remote version is much newer: v1.20.4; falling back to: stable-1.18
 W0314 03:49:12.338372   33645 configset.go:202] WARNING: kubeadm cannot validate component configs for API groups [kubelet.config.k8s.io kubeproxy.config.k8s.io]
