@@ -19,7 +19,11 @@ sudo apt update && sudo apt -y upgrade && sudo systemctl reboot
 :bulb: Certains référentiels ont des `URL` utilisant `HTTPS`. La librairie `apt-transport-https` doit être installée pour acceder le lien `HTTPS`:
 
 ```
-sudo apt update && sudo apt -y install curl apt-transport-https ca-certificates gnupg-agent software-properties-common
+sudo apt -y install curl \
+            apt-transport-https \
+            ca-certificates \
+            gnupg-agent \
+            software-properties-common
 ```
 
 :round_pushpin: Ajout du référentiel de librairies `kubernetes` au référentiel de gestionnaire de libraries  
