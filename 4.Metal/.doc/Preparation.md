@@ -64,7 +64,7 @@ sudo bash -c 'echo "net.bridge.bridge-nf-call-iptables  = 1" >> /etc/sysctl.d/k8
 - [ ] reload the configuration
 
 ```
-$ sudo sysctl --system
+sudo sysctl --system
 ```
 
 [:back:](../#round_pushpin-le-serveur)
