@@ -138,5 +138,6 @@ $ kubectl patch storageclass standard -p '{"metadata": {"annotations":{"storagec
 - [ ] [Mayastor is fastest open source storage, Intel says. So where are the numbers?](https://blocksandfiles.com/2021/03/08/intel-says-mayastor-is-fastest-open-source-storage)
 - [ ] [What do you see when you put container storage firms into the sorting triangle?](https://blocksandfiles.com/2021/03/05/data-storage-news-digest-container-storage/)
 - [ ] [Disk Reservation: How OpenEBS cStor uses this feature from Node Disk Manager](https://medium.com/@sonasingh46/disk-reservation-how-openebs-cstor-uses-this-feature-from-node-disk-manager-d4ff4f96b5d7)
+- [ ] [OpenEBS - Node Disk Manager](https://openebs.io/docs/concepts/ndm)
 
 
