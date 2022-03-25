@@ -73,6 +73,15 @@ https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/kubelet-in
 ```
 sudo dpkg --list kubelet
 ```
+> Retourne
+```
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name           Version      Architecture Description
++++-==============-============-============-=================================
+hi  kubelet        1.23.5-00    amd64        Kubernetes Node Agent
+```
 
 - [ ] Si elle n'est pas bonne, enlever la librairie
 
