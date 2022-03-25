@@ -3,9 +3,9 @@ kubectl apply --namespace openebs --filename - <<EOF
  apiVersion: openebs.io/v1alpha1
  kind: BlockDevice
  metadata:
-   name: blockdevice-0677cb25-01d4-4b7f-b318-77a98705173a
+   name: blockdevice-3fa7d473-d0f1-4532-bcd4-a402241eeff1
    labels:
-     kubernetes.io/hostname: edmonton
+     kubernetes.io/hostname: saiph
      ndm.io/managed: "false"
      ndm.io/blockdevice-type: blockdevice
  status:
@@ -20,13 +20,13 @@ kubectl apply --namespace openebs --filename - <<EOF
    devlinks:
    - kind: by-id
      links:
-     - /dev/disk/by-id/dm-uuid-LVM-dPdubY8uizUlDSbo3zJuS27Q21kOdawto5U0xZkJvIE5pUuABDdgvXXjfNNbp9g5 
+     - /dev/disk/by-id/dm-uuid-LVM-rezWQCWaDuFq4QzhcU4F3POBUQUJvJDMCYBBEPap5KcvpALZzh1BF1oXQ1QddcG1 
      - /dev/disk/by-id/dm-name-ubuntu--vg-iscsi--lv
    - kind: by-path
      links:
      - /dev/mapper/ubuntu--vg-iscsi--lv
    nodeAttributes:
-     nodeName: edmonton
+     nodeName: saiph
    path: /dev/dm-1
 ---
 EOF
