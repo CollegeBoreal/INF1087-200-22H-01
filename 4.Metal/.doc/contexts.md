@@ -16,12 +16,12 @@ $ mkdir -p $HOME/.kube
 
 - [ ] s'assurer d'avoir une connexion privilégiée avec une clé privée `~/.ssh/myprivate-key.pk` ayant accès au plan de contrôle.
 
-- [ ] Fournir le nom de domaine du plan de contrôle i.e. `ubuntu@betelgeuse.boreal.codes`
+- [ ] Fournir le nom de domaine du plan de contrôle i.e. `ubuntu@betelgeuse.orion.gasy.africa`
 
 - [ ] Copier le fichier de configuration `config` dans le répertoire `$HOME/.kube`
 
 ```
-$ scp -i ~/.ssh/myprivate-key.pk ubuntu@betelgeuse.boreal.codes:.kube/config ~/.kube/config
+scp -i ~/.ssh/myprivate-key.pk ubuntu@betelgeuse.orion.gasy.africa:.kube/config ~/.kube/config
 ```
 
 - [ ] Visualisation des contexts de connexion aux grappes `Kubernetes`
