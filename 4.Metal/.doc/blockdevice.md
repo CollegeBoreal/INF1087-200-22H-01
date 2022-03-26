@@ -188,5 +188,10 @@ spec:
 # References
 
 - [ ] [Beginners Guide to Udev in Linux](https://www.thegeekdiary.com/beginners-guide-to-udev-in-linux)
-- [ ] [Node Disk Manager User Guide](https://openebs.io/docs/user-guides/ndm)
+- [ ] [RAID vs LVM vs ZFS Comparison](https://computingforgeeks.com/raid-vs-lvm-vs-zfs-comparison/)
+- [ ] [A hands on demo of Volume Populator using OpenEBS LVM CSI driver](https://openebs.io/blog/a-hands-on-demo-of-volume-populator-using-openebs-lvm-csi-driver)
+
+ - [ ] [OpenEBS - Node Disk Manager](https://openebs.io/docs/concepts/ndm)
+  - [ ] [Node Disk Manager User Guide](https://openebs.io/docs/user-guides/ndm)
   - [ ] [Create blockdevice CRs for unsupported disks](https://openebs.io/docs/user-guides/ndm#create-blockdevice-crs-for-unsupported-disks)
+  - [ ] [Disk Reservation: How OpenEBS cStor uses this feature from Node Disk Manager](https://medium.com/@sonasingh46/disk-reservation-how-openebs-cstor-uses-this-feature-from-node-disk-manager-d4ff4f96b5d7)
