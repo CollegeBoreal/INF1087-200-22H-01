@@ -140,7 +140,9 @@ $ kubectl patch storageclass standard -p '{"metadata": {"annotations":{"storagec
 - [ ] [OpenEBS: cStor storage engine on KVM](https://technology.amis.nl/platform/openebs-cstor-storage-engine-on-kvm)
 - [ ] [Mayastor is fastest open source storage, Intel says. So where are the numbers?](https://blocksandfiles.com/2021/03/08/intel-says-mayastor-is-fastest-open-source-storage)
 - [ ] [What do you see when you put container storage firms into the sorting triangle?](https://blocksandfiles.com/2021/03/05/data-storage-news-digest-container-storage/)
-- [ ] [SPC based cStor Guide](https://openebs.io/docs/deprecated/spc-based-cstor)
+
+- [ ] [cStor Operators - Quick Guide](https://github.com/openebs/cstor-operators/blob/develop/docs/quick.md)
+    - [ ] [SPC based cStor Guide - deprecated](https://openebs.io/docs/deprecated/spc-based-cstor)
 
 - [ ] [CSTOR Storage Engine Components](https://github.com/openebs/openebsctl/tree/develop/docs/cstor)
 - [ ] [OpenEBSCTL is a kubectl plugin to manage OpenEBS storage components.](https://github.com/openebs/openebsctl)
