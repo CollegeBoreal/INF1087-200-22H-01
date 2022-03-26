@@ -188,6 +188,6 @@ spec:
 # References
 
 - [ ] [Beginners Guide to Udev in Linux](https://www.thegeekdiary.com/beginners-guide-to-udev-in-linux)
-- [ ] [SPC based cStor Guide](https://openebs.io/docs/deprecated/spc-based-cstor#Provisioning-sample-application-with-cstor)
-- [ ] [Provisioning sample application with cStor](https://openebs.io/docs/deprecated/spc-based-cstor#Provisioning-sample-application-with-cstor)
-- [ ] [Create blockdevice CRs for unsupported disks](https://openebs.io/docs/user-guides/ndm#create-blockdevice-crs-for-unsupported-disks)
+- [ ] [SPC based cStor Guide](https://openebs.io/docs/deprecated/spc-based-cstor)
+  - [ ] [Provisioning sample application with cStor](https://openebs.io/docs/deprecated/spc-based-cstor#Provisioning-sample-application-with-cstor)
+  - [ ] [Create blockdevice CRs for unsupported disks](https://openebs.io/docs/user-guides/ndm#create-blockdevice-crs-for-unsupported-disks)
