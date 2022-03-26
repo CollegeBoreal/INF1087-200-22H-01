@@ -140,5 +140,6 @@ $ kubectl patch storageclass standard -p '{"metadata": {"annotations":{"storagec
 - [ ] [Disk Reservation: How OpenEBS cStor uses this feature from Node Disk Manager](https://medium.com/@sonasingh46/disk-reservation-how-openebs-cstor-uses-this-feature-from-node-disk-manager-d4ff4f96b5d7)
 - [ ] [OpenEBS - Node Disk Manager](https://openebs.io/docs/concepts/ndm)
 - [ ] [A hands on demo of Volume Populator using OpenEBS LVM CSI driver](https://openebs.io/blog/a-hands-on-demo-of-volume-populator-using-openebs-lvm-csi-driver)
+- [ ] [OpenEBSCTL is a kubectl plugin to manage OpenEBS storage components.](https://github.com/openebs/openebsctl)
 
 
