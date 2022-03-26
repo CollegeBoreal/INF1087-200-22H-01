@@ -148,4 +148,27 @@ $ kubectl patch storageclass standard -p '{"metadata": {"annotations":{"storagec
    openebs  v0.5.0
 ```
 
+```
+PS> kubectl krew install openebs
+Updated the local copy of plugin index.
+Installing plugin: openebs
+Installed plugin: openebs
+\
+ | Use this plugin:
+ |      kubectl openebs
+ | Documentation:
+ |      https://github.com/openebs/openebsctl
+ | Caveats:
+ | \
+ |  | * This plugin works with newer OpenEBS releases, where volumes are
+ |  |   provisioned by CSI.
+ |  | * For resources that are not in default namespace, you must specify
+ |  |   -n/--namespace explicitly (the current namespace setting is not
+ |  |   yet used).
+ | /
+/
+[31;1mWARNING: [0mYou installed plugin "openebs" from the krew-index plugin repository.
+   These plugins are not audited for security by the Krew maintainers.
+   Run them at your own risk.
+```
 
