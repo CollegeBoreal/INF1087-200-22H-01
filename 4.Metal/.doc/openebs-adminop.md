@@ -141,5 +141,10 @@ $ kubectl patch storageclass standard -p '{"metadata": {"annotations":{"storagec
 - [ ] [OpenEBS - Node Disk Manager](https://openebs.io/docs/concepts/ndm)
 - [ ] [A hands on demo of Volume Populator using OpenEBS LVM CSI driver](https://openebs.io/blog/a-hands-on-demo-of-volume-populator-using-openebs-lvm-csi-driver)
 - [ ] [OpenEBSCTL is a kubectl plugin to manage OpenEBS storage components.](https://github.com/openebs/openebsctl)
+   kubectl krew list
+   PLUGIN   VERSION
+   krew     v0.4.3
+   openebs  v0.5.0
+
 
 
