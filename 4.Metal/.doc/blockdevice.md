@@ -148,7 +148,7 @@ EOF
 
 # References
 
-https://help.mayadata.io/hc/en-us/articles/360033465571-BlockDevice-CR-creation-for-partitioned-disks
+- [ ] [BlockDevice CR creation for partitioned disks](https://mdap.zendesk.com/hc/en-us/articles/360033465571-BlockDevice-CR-creation-for-partitioned-disks)
 
 https://openebs.io/blog/creating-manual-blockdevice/
 
