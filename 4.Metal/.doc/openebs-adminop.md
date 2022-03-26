@@ -148,6 +148,8 @@ $ kubectl patch storageclass standard -p '{"metadata": {"annotations":{"storagec
    openebs  v0.5.0
 ```
 
+:bulb: A required privilege is not held by the client.
+
 ```
 PS> kubectl krew install openebs
 Updated the local copy of plugin index.
