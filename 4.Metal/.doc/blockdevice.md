@@ -187,4 +187,6 @@ spec:
 ```
 # References
 
-https://www.thegeekdiary.com/beginners-guide-to-udev-in-linux/
+- [ ] [Beginners Guide to Udev in Linux](https://www.thegeekdiary.com/beginners-guide-to-udev-in-linux)
+ 
+- [ ] [SPC based cStor Guide](https://openebs.io/docs/deprecated/spc-based-cstor#Provisioning-sample-application-with-cstor)
