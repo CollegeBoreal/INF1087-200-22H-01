@@ -137,10 +137,8 @@ $ kubectl patch storageclass standard -p '{"metadata": {"annotations":{"storagec
 - [ ] [OpenEBS: cStor storage engine on KVM](https://technology.amis.nl/platform/openebs-cstor-storage-engine-on-kvm)
 - [ ] [Mayastor is fastest open source storage, Intel says. So where are the numbers?](https://blocksandfiles.com/2021/03/08/intel-says-mayastor-is-fastest-open-source-storage)
 - [ ] [What do you see when you put container storage firms into the sorting triangle?](https://blocksandfiles.com/2021/03/05/data-storage-news-digest-container-storage/)
-- [ ] [Disk Reservation: How OpenEBS cStor uses this feature from Node Disk Manager](https://medium.com/@sonasingh46/disk-reservation-how-openebs-cstor-uses-this-feature-from-node-disk-manager-d4ff4f96b5d7)
-- [ ] [OpenEBS - Node Disk Manager](https://openebs.io/docs/concepts/ndm)
-- [ ] [A hands on demo of Volume Populator using OpenEBS LVM CSI driver](https://openebs.io/blog/a-hands-on-demo-of-volume-populator-using-openebs-lvm-csi-driver)
-- [ ] [RAID vs LVM vs ZFS Comparison](https://computingforgeeks.com/raid-vs-lvm-vs-zfs-comparison/)
+- [ ] [SPC based cStor Guide](https://openebs.io/docs/deprecated/spc-based-cstor)
+
 - [ ] [CSTOR Storage Engine Components](https://github.com/openebs/openebsctl/tree/develop/docs/cstor)
 - [ ] [OpenEBSCTL is a kubectl plugin to manage OpenEBS storage components.](https://github.com/openebs/openebsctl)
 ```
