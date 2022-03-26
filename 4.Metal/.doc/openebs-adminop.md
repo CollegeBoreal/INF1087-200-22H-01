@@ -19,11 +19,14 @@ https://openebs.io/docs/#admin-operations
 > blockdevices or bd
 
 ```
-% kubectl get blockdevices --namespace openebs   
-NAME                                               NODENAME    SIZE        CLAIMSTATE   STATUS   AGE
-blockdevice-23e1292d-32f5-4528-8f7f-3abaee070a03   bellatrix   102687672   Unclaimed    Active   15s
-blockdevice-3fa7d473-d0f1-4532-bcd4-a402241eeff1   saiph       102687672   Unclaimed    Active   15s
-blockdevice-7e848c90-cca2-4ef4-9fdc-90cff05d5bb5   rigel       102687672   Unclaimed    Active   15s
+kubectl get blockdevices --namespace openebs   
+```
+> Retourne
+```
+NAME                                               NODENAME    SIZE           CLAIMSTATE   STATUS   AGE
+blockdevice-23e1292d-32f5-4528-8f7f-3abaee070a03   bellatrix   107374182400   Unclaimed    Active   4m2s
+blockdevice-3fa7d473-d0f1-4532-bcd4-a402241eeff1   saiph       107374182400   Unclaimed    Active   3m41s
+blockdevice-7e848c90-cca2-4ef4-9fdc-90cff05d5bb5   rigel       107374182400   Unclaimed    Active   3m26s
 ```
 
 > blockdeviceclaims or bdc
