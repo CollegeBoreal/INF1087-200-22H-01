@@ -174,3 +174,21 @@ Installed plugin: openebs
    Run them at your own risk.
 ```
 
+```
+filterconfigs:
+  - key: os-disk-exclude-filter
+    name: os disk exclude filter
+    state: true
+    exclude: "/,/etc/hosts,/boot"
+  - key: vendor-filter
+    name: vendor filter
+    state: true
+    include: ""
+    exclude: "CLOUDBYT,OpenEBS"
+  - key: path-filter
+    name: path filter
+    state: true
+    include: ""
+    exclude: "loop,fd0,sr0,/dev/ram,/dev/dm-,/dev/md,/dev/rbd,/dev/zd"
+```
+
