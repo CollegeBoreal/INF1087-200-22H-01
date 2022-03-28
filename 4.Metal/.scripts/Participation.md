@@ -1,4 +1,4 @@
-# Participation au 22-04-2021 12:44
+# Participation au 28-03-2022 17:00
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -24,17 +24,4 @@
 
 |:hash:| Boréal :id: | Interne | ssh | :whale: Docker | :droplet: Kubelet | :minidisc: iSCSI |:dvd: LV        |
 |------|-------------|---------|-----|----------------|-------------------|------------------|----------------|
-| 0 | 300111441 - <image src='https://avatars0.githubusercontent.com/u/55207099?s=460&v=4' width=20 height=20></image> | `ssh luxury@10.13.237.12` | :white_check_mark: | :green_heart: | :green_heart: | :green_heart: | :white_check_mark: |
-| 1 | 300111824 - <image src='https://avatars0.githubusercontent.com/u/54911706?s=460&v=4' width=20 height=20></image> | `ssh blevie@10.13.237.11` | :white_check_mark: | :green_heart: | :orange_heart: | :green_heart: | :white_check_mark: |
-| 2 | 300115065 - <image src='https://avatars0.githubusercontent.com/u/54910778?s=460&v=4' width=20 height=20></image> | `ssh fadde@10.13.237.13` | :white_check_mark: | :green_heart: | :green_heart: | :green_heart: | :white_check_mark: |
-| 3 | 300115140 - <image src='https://avatars0.githubusercontent.com/u/54910329?s=460&v=4' width=20 height=20></image> | `ssh zackto@10.13.237.14` | :white_check_mark: | :green_heart: | :green_heart: | :green_heart: | :white_check_mark: |
-| 4 | 300116670 - <image src='https://avatars0.githubusercontent.com/u/55238107?s=460&v=4' width=20 height=20></image> | `ssh auriane@10.13.237.15` | :white_check_mark: | :green_heart: | :green_heart: | :green_heart: | :white_check_mark: |
-| 5 | 300116685 - <image src='https://avatars0.githubusercontent.com/u/54910751?s=460&v=4' width=20 height=20></image> | `ssh amirali@10.13.237.10` | :white_check_mark: | :green_heart: | :green_heart: | :green_heart: | :white_check_mark: |
-| 6 | 300116973 - <image src='https://avatars0.githubusercontent.com/u/54910252?s=460&v=4' width=20 height=20></image> | `ssh nathalie@10.13.237.16` | :white_check_mark: | :green_heart: | :green_heart: | :green_heart: | :white_check_mark: |
-| 7 | 300117178 - <image src='https://avatars0.githubusercontent.com/u/54910937?s=460&v=4' width=20 height=20></image> | `ssh boris@10.13.237.17` | :white_check_mark: | :green_heart: | :green_heart: | :green_heart: | :white_check_mark: |
-| 8 | 300117314 - <image src='https://avatars0.githubusercontent.com/u/54910700?s=460&v=4' width=20 height=20></image> | `ssh morti@10.13.237.18` | :white_check_mark: | :green_heart: | :green_heart: | :green_heart: | :white_check_mark: |
-| 9 | 300117444 - <image src='https://avatars0.githubusercontent.com/u/54910261?s=460&v=4' width=20 height=20></image> | `ssh idir@10.13.237.19` | :white_check_mark: | :green_heart: | :green_heart: | :green_heart: | :white_check_mark: |
-| 10 | 300117782 - <image src='https://avatars0.githubusercontent.com/u/56364697?s=460&v=4' width=20 height=20></image> | `ssh serve@10.13.237.20` | :white_check_mark: | :green_heart: | :green_heart: | :green_heart: | :white_check_mark: |
-| 11 | 300117784 - <image src='https://avatars0.githubusercontent.com/u/54910102?s=460&v=4' width=20 height=20></image> | `ssh bertrand@10.13.237.21` | :white_check_mark: | :green_heart: | :green_heart: | :green_heart: | :white_check_mark: |
-| 12 | 300117806 - <image src='https://avatars0.githubusercontent.com/u/54910103?s=460&v=4' width=20 height=20></image> | `ssh hassana@10.13.237.22` | :white_check_mark: | :green_heart: | :green_heart: | :green_heart: | :white_check_mark: |
-| 13 | 300118524 - <image src='https://avatars0.githubusercontent.com/u/56364857?s=460&v=4' width=20 height=20></image> | `ssh zoureni@10.13.237.23` | :white_check_mark: | :green_heart: | :green_heart: | :green_heart: | :white_check_mark: |
+| 0 | 300106677 - <image src='https://avatars0.githubusercontent.com/u/71027895?s=460&v=4' width=20 height=20></image> | `ssh leonaldolinux@10.13.237.37` | :x: | :x: | :x: | :x: | :x: | :x: |

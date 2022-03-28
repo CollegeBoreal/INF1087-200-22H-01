@@ -1,63 +1,63 @@
 #!/bin/bash
 
 GRAPPES=(
-Alberta
-Africa
-GTA
 Ontario
+IvoryCoast
+Haiti
+Cameroun
 )
 
 DIR=(
 A
+AB
 B
-M
-O
-)
-
-## Africa
-
-AfricaDTA=(
-luxury@guinee.ecocenter.live
-fadde@maroc.ecocenter.live
-zackto@algerie.ecocenter.live
-)
-
-AfricaCTL=(
-auriane@congo.ecocenter.live
-)
-
-## Alberta
-
-AlbertaDTA=(
-serve@edmonton.ernanjia.live
-bertrand@beaumont.ernanjia.live
-hassana@calgary.ernanjia.live
-)
-
-AlbertaCTL=(
-zoureni@brooks.ernanjia.live
-)
-
-## GTA
-
-GTADTA=(
-boris@mississauga.mrti.rock
-morti@ajax.mrti.rocks
-idir@scarborough.mrti.rocks
-)
-
-GTACTL=(
-nathalie@brampton.mrti.rocks
+CL
 )
 
 ## Ontario
 
 OntarioDTA=(
-ubuntu@sudbury.amir-ali.live
-ubuntu@penetanguishene.amir-ali.live
-blevie@ottawa.amir-ali.live
+ubuntu@sudbury.ontario.hdave21.live
+fadde@hamilton.ontario.hdave21.live
+dave25@niagara.ontario.hdave21.live
 )
 
-OntarioCTL=(
-amirali11@toronto.amir-ali.live
+AfricaCTL=(
+ubuntu@toronto.ontario.hdave21.live
+)
+
+## IvoryCoast
+
+IvoryCoastDTA=(
+ubuntu@yamoussoukro.ivorycoast.siomh.tech
+ubuntu@gagnoa.ivorycoast.siomh.tech
+ubuntu@blolekin.ivorycoast.siomh.tech
+)
+
+IvoryCoastCTL=(
+ubuntu@abidjan.ivorycoast.siomh.tech
+)
+
+## Haiti
+
+HaitiDTA=(
+ubuntu@cayes.haiti.leonaldo.tech
+ubuntu@gonaive.haiti.leonaldo.tech
+ubuntu@port-de-paix.haiti.leonaldo.tech
+)
+
+HaitiCTL=(
+ubuntu@port-au-prince.haiti.leonaldo.tech
+)
+
+## Cameroun
+
+CamerounDTA=(
+ubuntu@douala.cameroun.sylvainbitja.software
+ubuntu@yaounde.cameroun.sylvainbitja.software
+ubuntu@garoua.cameroun.sylvainbitja.software
+)
+
+CamerounCTL=(
+ubuntu@tokyo.cameroun.sylvainbitja.software
 )
