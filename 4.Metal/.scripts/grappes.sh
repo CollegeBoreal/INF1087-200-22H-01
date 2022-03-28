@@ -47,7 +47,7 @@ ubuntu@port-de-paix.haiti.leonaldo.tech
 )
 
 HaitiCTL=(
-ubuntu@port-au-prince.haiti.leonaldo.tech
+leonaldolinux@port-au-prince.haiti.leonaldo.tech
 )
 
 ## Cameroun
