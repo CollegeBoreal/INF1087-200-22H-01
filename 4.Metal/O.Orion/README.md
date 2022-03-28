@@ -11,7 +11,7 @@
 
 :one: kubectl apply [csi-cstor-sc](csi-cstor-sc.md)
 
-[:x:] Error
+[:x:]() Error
 ```
 Error from server (InternalError): error when creating "STDIN": Internal error occurred: failed calling webhook "admission-webhook.cstor.openebs.io": Post https://openebs-cstor-admission-server.openebs.svc:443/validate?timeout=5s: dial tcp 10.102.15.93:443: connect: no route to host
 ```
