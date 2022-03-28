@@ -27,3 +27,5 @@ from `failurePolicy: Fail` to   `failurePolicy: Ignore`
 ```
 validatingwebhookconfiguration.admissionregistration.k8s.io/openebs-cstor-validation-webhook edited
 ```
+
+https://github.com/openebs/cstor-operators/blob/develop/docs/quick.md
