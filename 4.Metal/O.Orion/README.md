@@ -6,3 +6,11 @@
 | data plane    | bellatrix.orion.gasy.africa  | `10.13.15.201/20` | 64GB Ram,      16cpus |
 | data plane    | rigel.orion.gasy.africa      | `10.13.15.202/20` | 32GB Ram,      16cpus |
 | data plane    | saiph.orion.gasy.africa      | `10.13.15.203/20` | 64GB Ram,      16cpus |
+
+
+
+:one: kubectl apply 
+
+```
+Error from server (InternalError): error when creating "STDIN": Internal error occurred: failed calling webhook "admission-webhook.cstor.openebs.io": Post https://openebs-cstor-admission-server.openebs.svc:443/validate?timeout=5s: dial tcp 10.102.15.93:443: connect: no route to host
+```
