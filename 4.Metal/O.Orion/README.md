@@ -15,3 +15,13 @@
 ```
 Error from server (InternalError): error when creating "STDIN": Internal error occurred: failed calling webhook "admission-webhook.cstor.openebs.io": Post https://openebs-cstor-admission-server.openebs.svc:443/validate?timeout=5s: dial tcp 10.102.15.93:443: connect: no route to host
 ```
+
+:two: change the validatingwebhookConfiguration `failurePolicy` to `Ignore` by Editing
+
+```
+ kubectl edit validatingwebhookconfiguration openebs-cstor-validation-webhook
+```
+> Return
+```
+validatingwebhookconfiguration.admissionregistration.k8s.io/openebs-cstor-validation-webhook edited
+```
