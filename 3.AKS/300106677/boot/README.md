@@ -9,7 +9,7 @@ Le compte de service sera utilisé pour accéder à la grappe, en fournissant l'
 * Remplacer `300000000` avec son :id:
 
 ```
-AZURE_CLI_SP=azure-cli-300000000
+AZURE_CLI_SP=azure-cli-300106677
 ```
 
 ```
