@@ -1,4 +1,4 @@
-# Participation au 28-03-2022 21:02
+# Participation au 28-03-2022 21:06
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -16,7 +16,7 @@
 
 |:hash:| Boréal :id:                | README.md   | :wheel_of_dharma: Conf |
 |------|----------------------------|-------------|------------------------|
-| 0 | [300106677](../300106677) - <image src='https://avatars0.githubusercontent.com/u/71027895?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300106677/README.md) | [:x:](../300106677/.kube/config) |
+| 0 | [300106677](../300106677) - <image src='https://avatars0.githubusercontent.com/u/71027895?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300106677/README.md) | [:heavy_check_mark:](../300106677/.kube/config) |
 | 1 | [300117811](../300117811) - <image src='https://avatars0.githubusercontent.com/u/71027809?s=460&v=4' width=20 height=20></image> | [:x:] | [:x:](../300117811/.kube/config) |
 | 2 | [300121460](../300121460) - <image src='https://avatars0.githubusercontent.com/u/71027883?s=460&v=4' width=20 height=20></image> | [:x:] | [:heavy_check_mark:](../300121460/.kube/config) |
 | 3 | [300122014](../300122014) - <image src='https://avatars0.githubusercontent.com/u/71392439?s=460&v=4' width=20 height=20></image> | [:x:] | [:x:](../300122014/.kube/config) |
