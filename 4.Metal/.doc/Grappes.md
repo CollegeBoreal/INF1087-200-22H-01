@@ -3,14 +3,15 @@
 
 ## :a: Nom: [A.Ontario](../A.Ontario)
 
-## :m: Nom: [M.GTA](../M.GTA)
+# :ab: Nom: [AB.IvoryCoast](../AB.IvoryCoast)
 
-| Groupe |:airplane:|:id:  |:penguin: 10.13.237.*| Domaine      |:star: Control Plane |
-|--------|-----------|------|---------------------|--------------|--------------|
-|:m:|Nathalie|300116973|16|31|
-|:m:|Boris|300117178|17|32|
-|:m:|Morteza|300117314|18|33|
-|:m:|Idir|300117444|19|34|
+| Server           | Hostname                                 |  IP               | Specs                 |
+|------------------|------------------------------------------|-------------------|-----------------------|
+| control plane    |ubuntu@abidjan.ivorycoast.siomh.tech      | `10.13.237.43/24` | 64GB Ram,      16cpus |
+| data plane       |ubuntu@yamoussoukro.ivorycoast.siomh.tech | `10.13.237.44/24` | 64GB Ram,      16cpus |
+| data plane       |ubuntu@gagnoa.ivorycoast.siomh.tech       | `10.13.237.45/24` | 64GB Ram,      16cpus |
+| data plane       |ubuntu@blolekin.ivorycoast.siomh.tech     | `10.13.237.46/24` | 64GB Ram,      16cpus |
+
 
 ## :a: Nom: [A.Alberta](../A.Alberta)
 
