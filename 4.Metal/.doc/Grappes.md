@@ -1,22 +1,7 @@
 # Grappes
 
-## :o: Nom: [O.Ontario](../O.Ontario)
 
-| Groupe |:airplane:|:id:  |:penguin: 10.13.237.*| Domaine      | :star: Control Plane |
-|--------|-----------|------|---------------------|--------------|--------------|
-|:o:|Brice|300098957|8| |
-|:o:|Brice|300098957|9| |
-|:o:|Amir|300116685|10| |
-|:o:|Blevie|300111824|11| |
-
-## :b: Nom: [B.Africa](../B.Africa)
-
-| Groupe |:airplane:|:id:  |:penguin: 10.13.237.*| Domaine      |:star: Control Plane |
-|--------|-----------|------|---------------------|--------------|--------------|
-|:b:|Sekou|300111441|12 |
-|:b:|Abdelkrim|300115065|13 |
-|:b:|Zack|300115140|14 |
-|:b:|Auriane|300116670|15 |
+## :a: Nom: [A.Ontario](../A.Ontario)
 
 ## :m: Nom: [M.GTA](../M.GTA)
 
@@ -35,3 +20,5 @@
 |:a:|Bertrand|300117784|21||
 |:a:|Hassana|300117806|22||
 |:a:|Zouréni|300118524|23||
+
+## :o: Nom: [O.Orion](../O.Orion)
