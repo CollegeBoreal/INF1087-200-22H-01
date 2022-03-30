@@ -27,7 +27,7 @@ L'exercice dans cette section est de préparer sa grappe (cluster) que vous inst
 Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 
 - [ ] Nommer vos [Grappes](.doc/Grappes.md) :writing_hand:	 
-- [ ] Aidez vous de Azure `Zone DNS` pour créer votre Zone aupres de votre fournisseur de domaine.
+- [ ] Aidez vous de Azure `Zone DNS` pour créer votre Zone aupres de votre fournisseur de domaine (NS Record).
 - [ ] Après avoir déterminé le nom de votre grappe:
 
 * Créer un répertoire avec le nom de votre grappe et y mettre un fichier `README.md` avec la topologie de votre grappe, example:
