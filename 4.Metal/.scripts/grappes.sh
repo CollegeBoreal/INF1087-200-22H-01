@@ -22,7 +22,7 @@ dave21@hamilton.ontario.hdavid21.live
 dave25@niagara.ontario.hdavid21.live
 )
 
-AfricaCTL=(
+OntarioCTL=(
 dave24@toronto.ontario.hdavid21.live
 )
 
