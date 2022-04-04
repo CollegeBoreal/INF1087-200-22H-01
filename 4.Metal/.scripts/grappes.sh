@@ -17,13 +17,13 @@ CL
 ## Ontario
 
 OntarioDTA=(
-ubuntu@sudbury.ontario.hdave21.live
-fadde@hamilton.ontario.hdave21.live
-dave25@niagara.ontario.hdave21.live
+dave22@sudbury.ontario.hdavid21.live
+dave21@hamilton.ontario.hdavid21.live
+dave25@niagara.ontario.hdavid21.live
 )
 
 AfricaCTL=(
-ubuntu@toronto.ontario.hdave21.live
+dave24@toronto.ontario.hdavid21.live
 )
 
 ## IvoryCoast
