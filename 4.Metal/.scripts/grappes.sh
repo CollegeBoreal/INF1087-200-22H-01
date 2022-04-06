@@ -59,5 +59,5 @@ ubuntu@garoua.cameroun.sylvainbitja.software
 )
 
 CamerounCTL=(
-ubuntu@tokyo.cameroun.sylvainbitja.software
+sylvainmakak@tokyo.cameroun.sylvainbitja.software
 )
