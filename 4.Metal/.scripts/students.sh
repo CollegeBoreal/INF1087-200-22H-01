@@ -21,17 +21,3 @@ linuxserv@abidjan.ivorycoast.siomh.tech
 dave24@toronto.ontario.hdavid21.live
 sylvainmakak@tokyo.cameroun.sylvainbitja.software
 )
-
-IDS=(
-leonaldolinux
-sio_mh
-dave21
-sylvainmakak
-)
-
-IPS=(
-10.13.237.37
-10.13.237.34
-10.13.237.31
-10.13.237.28
-)
