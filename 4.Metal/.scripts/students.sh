@@ -18,6 +18,6 @@ AVATARS=(
 SERVERS=(
 leonaldolinux@port-au-prince.haiti.leonaldo.me
 linuxserv@abidjan.ivorycoast.siomh.tech
-dave24@toronto.ontario.hdavid21.live
+dave25@niagara.ontario.hdavid21.live
 sylvainmakak@tokyo.cameroun.sylvainbitja.software
 )
