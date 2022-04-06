@@ -17,7 +17,7 @@ AVATARS=(
 
 SERVERS=(
 leonaldolinux@port-au-prince.haiti.leonaldo.me
-ubuntu@abidjan.ivorycoast.siomh.tech
+linuxserv@abidjan.ivorycoast.siomh.tech
 dave24@toronto.ontario.hdavid21.live
 sylvainmakak@tokyo.cameroun.sylvainbitja.software
 )
