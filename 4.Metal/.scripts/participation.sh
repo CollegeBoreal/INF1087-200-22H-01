@@ -83,62 +83,72 @@ KO=":x:"
 
 for id in "${ETUDIANTS[@]}"
 do
-   SERVER=${SERVERS[${i}]}
+   LINES=${SERVERS[${i}]}
+   for y in {0..3}
+   do
 
-   VERSION=`ssh -i ~/.ssh/b300098957@ramena.pk \
-        -o StrictHostKeyChecking=no \
-        -o PasswordAuthentication=no \
-        -o ConnectTimeout=5 ${SERVER} lsb_release -a 2>/dev/null`
-   # echo $VERSION
+     IFS=";" read -r -a arr <<< "${LINES}"
 
-   SERVICE="docker"
-   statut_du_service
-   DOCKER=$?
-   #echo $DOCKER
+     SERVER="${arr[${y}]}"
+     # echo "SERVER : ${SERVER}"
+     # echo
 
-   SERVICE="kubelet"
-   statut_du_service
-   KUBELET=$?
-   # echo $KUBELET
 
-   SERVICE="iscsid"
-   statut_du_service
-   ISCSI=$?
-   # echo $ISCSI
+     VERSION=`ssh -i ~/.ssh/b300098957@ramena.pk \
+          -o StrictHostKeyChecking=no \
+          -o PasswordAuthentication=no \
+          -o ConnectTimeout=5 ${SERVER} lsb_release -a 2>/dev/null`
+     # echo $VERSION
 
-   LVG=`ssh -i ~/.ssh/b300098957@ramena.pk \
-        -o StrictHostKeyChecking=no \
-        -o PasswordAuthentication=no \
-        -o ConnectTimeout=5 ${SERVER} sudo lvs ubuntu-vg/iscsi-lv --noheadings 2>/dev/null`
-   # echo $LVG
+     SERVICE="docker"
+     statut_du_service
+     DOCKER=$?
+     #echo $DOCKER
 
-   VALUE="| ${i} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVER}\` |"
+     SERVICE="kubelet"
+     statut_du_service
+     KUBELET=$?
+     # echo $KUBELET
 
-   if [[ $VERSION == *"Ubuntu"* ]]; then
+     SERVICE="iscsid"
+     statut_du_service
+     ISCSI=$?
+     # echo $ISCSI
 
-       # --- SSH -------------
-       VALUE="${VALUE} ${OK} |"
+     LVG=`ssh -i ~/.ssh/b300098957@ramena.pk \
+          -o StrictHostKeyChecking=no \
+          -o PasswordAuthentication=no \
+          -o ConnectTimeout=5 ${SERVER} sudo lvs ubuntu-vg/iscsi-lv --noheadings 2>/dev/null`
+     # echo $LVG
 
-       # --- DOCKER -------------
-       VALUE="${VALUE} ${COULEURS[${DOCKER}]} |"
+     VALUE="| ${i} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVER}\` |"
 
-       # --- KUBELET -------------
-       VALUE="${VALUE} ${COULEURS[${KUBELET}]} |"
+     if [[ $VERSION == *"Ubuntu"* ]]; then
 
-       # --- ISCSI -------------
-       VALUE="${VALUE} ${COULEURS[${ISCSI}]} |"
+         # --- SSH -------------
+         VALUE="${VALUE} ${OK} |"
 
-       # --- LVG -------------
-       if [[ $LVG == *"-wi-a"* ]]; then
-          VALUE="${VALUE} ${OK} |"
-       else
-          VALUE="${VALUE} ${KO} |"
-       fi
+         # --- DOCKER -------------
+         VALUE="${VALUE} ${COULEURS[${DOCKER}]} |"
 
-   else
-       VALUE="${VALUE} ${KO} | ${NOSSH}"
-   fi
-   echo ${VALUE}
+         # --- KUBELET -------------
+         VALUE="${VALUE} ${COULEURS[${KUBELET}]} |"
+
+         # --- ISCSI -------------
+         VALUE="${VALUE} ${COULEURS[${ISCSI}]} |"
+
+         # --- LVG -------------
+         if [[ $LVG == *"-wi-a"* ]]; then
+            VALUE="${VALUE} ${OK} |"
+         else
+            VALUE="${VALUE} ${KO} |"
+         fi
+
+     else
+         VALUE="${VALUE} ${KO} | ${NOSSH}"
+     fi
+     echo ${VALUE}
+   done
    let "i++"
 
 done
