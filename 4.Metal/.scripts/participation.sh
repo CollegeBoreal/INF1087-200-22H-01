@@ -80,7 +80,7 @@ NOSSH=" :x: | :x: | :x: | :x: | :x: |"
 IFS=";" read -r -a numbers <<< "${NUMBERS[0]}"
 # echo $NUMBERS
 
-i=1
+i=0
 OK=":white_check_mark:"
 KO=":x:"
 
