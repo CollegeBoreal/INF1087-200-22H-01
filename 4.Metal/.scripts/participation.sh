@@ -80,7 +80,7 @@ NOSSH=" :x: | :x: | :x: | :x: | :x: |"
 IFS=";" read -r -a numbers <<< "${NUMBERS[0]}"
 # echo $NUMBERS
 
-i=0
+i=1
 OK=":white_check_mark:"
 KO=":x:"
 
@@ -96,9 +96,9 @@ do
      # echo "SERVER : ${SERVER}"
      # echo
 
-     NUMBER="${numbers[${i+1}]}"
-     # echo "NUMBER : ${NUMBER}"
-     # echo
+     NUMBER="${numbers[${i}]}"
+     echo "NUMBER : ${NUMBER}"
+     echo
 
      VERSION=`ssh -i ~/.ssh/b300098957@ramena.pk \
           -o StrictHostKeyChecking=no \
