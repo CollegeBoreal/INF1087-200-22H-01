@@ -77,6 +77,9 @@ echo "|------|-------------|---------|-----|----------------|-------------------
 
 NOSSH=" :x: | :x: | :x: | :x: | :x: |"
 
+IFS=";" read -r -a numbers <<< "${NUMBERS[0]}"
+# echo $NUMBERS
+
 i=0
 OK=":white_check_mark:"
 KO=":x:"
@@ -93,6 +96,9 @@ do
      # echo "SERVER : ${SERVER}"
      # echo
 
+     NUMBER="${numbers[${i+1}]}"
+     # echo "NUMBER : ${NUMBER}"
+     # echo
 
      VERSION=`ssh -i ~/.ssh/b300098957@ramena.pk \
           -o StrictHostKeyChecking=no \
@@ -121,7 +127,7 @@ do
           -o ConnectTimeout=5 ${SERVER} sudo lvs ubuntu-vg/iscsi-lv --noheadings 2>/dev/null`
      # echo $LVG
 
-     VALUE="| ${i} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVER}\` |"
+     VALUE="| ${NUMBER} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVER}\` |"
 
      if [[ $VERSION == *"Ubuntu"* ]]; then
 

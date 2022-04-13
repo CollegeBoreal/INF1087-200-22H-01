@@ -21,3 +21,7 @@ SERVERS=(
 'dave25@niagara.ontario.hdavid21.live;dave22@sudbury.ontario.hdavid21.live;dave21@hamilton.ontario.hdavid21.live;dave24@toronto.ontario.hdavid21.live'
 'sylvainmakak@tokyo.cameroun.sylvainbitja.software;ubuntu@douala.cameroun.sylvainbitja.software;ubuntu@yaounde.cameroun.sylvainbitja.software;ubuntu@garoua.cameroun.sylvainbitja.software'
 )
+
+NUMBERS=(
+':zero:;:one:;:two:;:three:;:four:;:five:;:six:;:seven:;:eight:;:nine:'
+)
