@@ -1,4 +1,4 @@
-# Participation au 13-04-2022 13:50
+# Participation au 13-04-2022 13:57
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -24,51 +24,19 @@
 
 |:hash:| Boréal :id: | Interne | ssh | :whale: Docker | :droplet: Kubelet | :minidisc: iSCSI |:dvd: LV        |
 |------|-------------|---------|-----|----------------|-------------------|------------------|----------------|
-NUMBER : :one:
-
 | :one: | 300106677 - <image src='https://avatars0.githubusercontent.com/u/71027809?s=460&v=4' width=20 height=20></image> | `ssh linuxserv@abidjan.ivorycoast.siomh.tech` | :x: | :x: | :x: | :x: | :x: | :x: |
-NUMBER : :one:
-
 | :one: | 300106677 - <image src='https://avatars0.githubusercontent.com/u/71027809?s=460&v=4' width=20 height=20></image> | `ssh ubuntu@yamoussoukro.ivorycoast.siomh.tech` | :x: | :x: | :x: | :x: | :x: | :x: |
-NUMBER : :one:
-
 | :one: | 300106677 - <image src='https://avatars0.githubusercontent.com/u/71027809?s=460&v=4' width=20 height=20></image> | `ssh ubuntu@gagnoa.ivorycoast.siomh.tech` | :x: | :x: | :x: | :x: | :x: | :x: |
-NUMBER : :one:
-
 | :one: | 300106677 - <image src='https://avatars0.githubusercontent.com/u/71027809?s=460&v=4' width=20 height=20></image> | `ssh ubuntu@blolekin.ivorycoast.siomh.tech` | :x: | :x: | :x: | :x: | :x: | :x: |
-NUMBER : :two:
-
 | :two: | 300117811 - <image src='https://avatars0.githubusercontent.com/u/71027883?s=460&v=4' width=20 height=20></image> | `ssh dave25@niagara.ontario.hdavid21.live` | :white_check_mark: | :broken_heart: | :broken_heart: | :broken_heart: | :x: |
-NUMBER : :two:
-
 | :two: | 300117811 - <image src='https://avatars0.githubusercontent.com/u/71027883?s=460&v=4' width=20 height=20></image> | `ssh dave22@sudbury.ontario.hdavid21.live` | :x: | :x: | :x: | :x: | :x: | :x: |
-NUMBER : :two:
-
 | :two: | 300117811 - <image src='https://avatars0.githubusercontent.com/u/71027883?s=460&v=4' width=20 height=20></image> | `ssh dave21@hamilton.ontario.hdavid21.live` | :white_check_mark: | :broken_heart: | :broken_heart: | :broken_heart: | :white_check_mark: |
-NUMBER : :two:
-
 | :two: | 300117811 - <image src='https://avatars0.githubusercontent.com/u/71027883?s=460&v=4' width=20 height=20></image> | `ssh dave24@toronto.ontario.hdavid21.live` | :x: | :x: | :x: | :x: | :x: | :x: |
-NUMBER : :three:
-
 | :three: | 300121460 - <image src='https://avatars0.githubusercontent.com/u/71392439?s=460&v=4' width=20 height=20></image> | `ssh sylvainmakak@tokyo.cameroun.sylvainbitja.software` | :white_check_mark: | :broken_heart: | :broken_heart: | :broken_heart: | :white_check_mark: |
-NUMBER : :three:
-
 | :three: | 300121460 - <image src='https://avatars0.githubusercontent.com/u/71392439?s=460&v=4' width=20 height=20></image> | `ssh ubuntu@douala.cameroun.sylvainbitja.software` | :white_check_mark: | :broken_heart: | :broken_heart: | :broken_heart: | :x: |
-NUMBER : :three:
-
 | :three: | 300121460 - <image src='https://avatars0.githubusercontent.com/u/71392439?s=460&v=4' width=20 height=20></image> | `ssh ubuntu@yaounde.cameroun.sylvainbitja.software` | :x: | :x: | :x: | :x: | :x: | :x: |
-NUMBER : :three:
-
 | :three: | 300121460 - <image src='https://avatars0.githubusercontent.com/u/71392439?s=460&v=4' width=20 height=20></image> | `ssh ubuntu@garoua.cameroun.sylvainbitja.software` | :x: | :x: | :x: | :x: | :x: | :x: |
-NUMBER : :four:
-
 | :four: | 300122014 - <image src='https://avatars0.githubusercontent.com/u/?s=460&v=4' width=20 height=20></image> | `ssh ` | :x: | :x: | :x: | :x: | :x: | :x: |
-NUMBER : :four:
-
 | :four: | 300122014 - <image src='https://avatars0.githubusercontent.com/u/?s=460&v=4' width=20 height=20></image> | `ssh ` | :x: | :x: | :x: | :x: | :x: | :x: |
-NUMBER : :four:
-
 | :four: | 300122014 - <image src='https://avatars0.githubusercontent.com/u/?s=460&v=4' width=20 height=20></image> | `ssh ` | :x: | :x: | :x: | :x: | :x: | :x: |
-NUMBER : :four:
-
 | :four: | 300122014 - <image src='https://avatars0.githubusercontent.com/u/?s=460&v=4' width=20 height=20></image> | `ssh ` | :x: | :x: | :x: | :x: | :x: | :x: |

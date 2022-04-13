@@ -97,8 +97,8 @@ do
      # echo
 
      NUMBER="${numbers[${i}]}"
-     echo "NUMBER : ${NUMBER}"
-     echo
+     # echo "NUMBER : ${NUMBER}"
+     # echo
 
      VERSION=`ssh -i ~/.ssh/b300098957@ramena.pk \
           -o StrictHostKeyChecking=no \
