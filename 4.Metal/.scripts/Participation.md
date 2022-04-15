@@ -1,4 +1,4 @@
-# Participation au 13-04-2022 17:20
+# Participation au 15-04-2022 16:18
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -25,9 +25,9 @@
 |:hash:| Boréal :id: | Interne | ssh | :whale: Docker | :droplet: Kubelet | :minidisc: iSCSI |:dvd: LV        |
 |------|-------------|---------|-----|----------------|-------------------|------------------|----------------|
 | :zero: | 300106677 - <image src='https://avatars0.githubusercontent.com/u/71027895?s=460&v=4' width=20 height=20></image> | `ssh leonaldolinux@port-au-prince.haiti.leonaldo.me` | :white_check_mark: | :broken_heart: | :broken_heart: | :broken_heart: | :white_check_mark: |
-| :zero: | 300106677 - <image src='https://avatars0.githubusercontent.com/u/71027895?s=460&v=4' width=20 height=20></image> | `ssh ubuntu@cayes-haiti.leonaldo.me` | :x: | :x: | :x: | :x: | :x: | :x: |
+| :zero: | 300106677 - <image src='https://avatars0.githubusercontent.com/u/71027895?s=460&v=4' width=20 height=20></image> | `ssh ubuntu@cayes-haiti.leonaldo.me` | :white_check_mark: | :broken_heart: | :broken_heart: | :broken_heart: | :x: |
 | :zero: | 300106677 - <image src='https://avatars0.githubusercontent.com/u/71027895?s=460&v=4' width=20 height=20></image> | `ssh ubuntu@gonaive-haiti.leonaldo.me` | :x: | :x: | :x: | :x: | :x: | :x: |
-| :zero: | 300106677 - <image src='https://avatars0.githubusercontent.com/u/71027895?s=460&v=4' width=20 height=20></image> | `ssh ubuntu@port-de-paix-haiti.leonaldo.me` | :x: | :x: | :x: | :x: | :x: | :x: |
+| :zero: | 300106677 - <image src='https://avatars0.githubusercontent.com/u/71027895?s=460&v=4' width=20 height=20></image> | `ssh ubuntu@port-de-paix-haiti.leonaldo.me` | :white_check_mark: | :broken_heart: | :broken_heart: | :broken_heart: | :x: |
 | :one: | 300117811 - <image src='https://avatars0.githubusercontent.com/u/71027809?s=460&v=4' width=20 height=20></image> | `ssh linuxserv@abidjan.ivorycoast.siomh.tech` | :x: | :x: | :x: | :x: | :x: | :x: |
 | :one: | 300117811 - <image src='https://avatars0.githubusercontent.com/u/71027809?s=460&v=4' width=20 height=20></image> | `ssh ubuntu@yamoussoukro.ivorycoast.siomh.tech` | :x: | :x: | :x: | :x: | :x: | :x: |
 | :one: | 300117811 - <image src='https://avatars0.githubusercontent.com/u/71027809?s=460&v=4' width=20 height=20></image> | `ssh ubuntu@gagnoa.ivorycoast.siomh.tech` | :x: | :x: | :x: | :x: | :x: | :x: |
