@@ -36,14 +36,6 @@ Quels sont les instructions pour créer sa propre image?
 
 - [ ] [Cycle de vie](https://www.linkedin.com/learning/decouvrir-docker/decouvrir-le-cycle-de-vie-d-un-conteneur?u=56968449)
 
-* Created: A container that has been created but not started
-* Running: A container running with all its processes
-* Paused: A container whose processes have been paused
-* Stopped: A container whose processes have been stopped
-* Deleted: A container in a dead state
-
-<img src="images/Docker-Life-Cycle.png" width="" height="" ></img>
-
 - [ ] Composition d'une [Image](https://www.linkedin.com/learning/decouvrir-docker/comprendre-les-couches-d-une-image?u=56968449) `ISO` docker
 
 <img src="images/Docker-In-Action_Images.png" width=500 height=500 ></img>
