@@ -42,7 +42,7 @@ Quels sont les instructions pour créer sa propre image?
 * Stopped: A container whose processes have been stopped
 * Deleted: A container in a dead state
 
-<img src=""images/Docker-Life-Cycle.png" width="" height="" ></img>
+<img src="images/Docker-Life-Cycle.png" width="" height="" ></img>
 
 - [ ] Composition d'une [Image](https://www.linkedin.com/learning/decouvrir-docker/comprendre-les-couches-d-une-image?u=56968449) `ISO` docker
 
